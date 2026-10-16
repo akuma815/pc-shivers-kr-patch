@@ -1,0 +1,32 @@
+Shivers Korean patch — unofficial fan project
+
+Shivers and the original game content belong to their respective rights holders.
+This package does not grant rights to the original game. A lawful original copy
+is required. No original game archive, movie or Windows font file is bundled.
+Using a delta format does not itself establish permission from rights holders.
+
+Custom ScummVM 2026.3.0: GPL v3 or later. This is a modified, unofficial build,
+not an official ScummVM release. The corresponding source, exact modification
+patch, dependency sources and build instructions accompany this package.
+https://www.scummvm.org/
+
+This software uses the FreeType Project (https://freetype.org/).
+FreeType is used under its FreeType License. SDL2, Brotli, bzip2, libpng and zlib
+notices are in licenses. xdelta 3.2.0 is under Apache License 2.0; its complete
+source distribution is included, including bundled component notices.
+The file xdelta3decode.exe is the full official xdelta3.exe renamed locally;
+the minimal upstream decoder does not include the LZMA codec used by this patch.
+
+The installer reads Malgun Gothic from the user's Windows installation and
+makes a local unchanged game copy for this Windows runtime. It does not install
+a font system-wide, modify font data, or distribute the font file.
+Microsoft guidance: https://learn.microsoft.com/en-us/typography/fonts/font-faq
+
+The custom subtitle overlay is separate from the original game's English
+subtitle option. Always start with Shivers Korean.exe. The launcher enforces
+native subtitles=false and --no-subtitles without modifying the global
+ScummVM configuration. Do not re-enable original subtitles in the game options.
+
+This release candidate is not a claim of complete full-game translation or QA.
+Known intentionally untranslated graphics are unchanged. Existing game saves
+are not converted between target names or between original SCI and ScummVM.

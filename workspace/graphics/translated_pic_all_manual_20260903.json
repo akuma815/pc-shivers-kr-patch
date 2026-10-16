@@ -1,0 +1,2320 @@
+{
+  "schema_version": 1,
+  "scope": "All 142 manually translated Shivers SCI picture assets frozen on 2026-09-03",
+  "status": "user_reported_manual_complete_build_input",
+  "normalization": "Lanczos resize to the original cel dimensions, then nearest-color mapping to palette indices used by the original picture",
+  "expected_resource_numbers": [
+    5,
+    910,
+    911,
+    914,
+    918,
+    920,
+    921,
+    922,
+    923,
+    927,
+    991,
+    1003,
+    1004,
+    1020,
+    1030,
+    3111,
+    3112,
+    3113,
+    3114,
+    3115,
+    3116,
+    3117,
+    6111,
+    6162,
+    6163,
+    6200,
+    6201,
+    6202,
+    6222,
+    6223,
+    6224,
+    6225,
+    6226,
+    6227,
+    6228,
+    7162,
+    8342,
+    8343,
+    8344,
+    8345,
+    8346,
+    8347,
+    8413,
+    8414,
+    8415,
+    8416,
+    8530,
+    8630,
+    8650,
+    8660,
+    8680,
+    8690,
+    9800,
+    9810,
+    9901,
+    9902,
+    10122,
+    10132,
+    10133,
+    10142,
+    10204,
+    10205,
+    10206,
+    10207,
+    10208,
+    10209,
+    10211,
+    10212,
+    10290,
+    10481,
+    11400,
+    11410,
+    11420,
+    11430,
+    11440,
+    11510,
+    11900,
+    11910,
+    11920,
+    11930,
+    12182,
+    12183,
+    12184,
+    12185,
+    12186,
+    12550,
+    12560,
+    12570,
+    12580,
+    12590,
+    12800,
+    12820,
+    13891,
+    14200,
+    16431,
+    20441,
+    20900,
+    20910,
+    20920,
+    20930,
+    21141,
+    21181,
+    21204,
+    21321,
+    21411,
+    21800,
+    21810,
+    21820,
+    21830,
+    21840,
+    22800,
+    22810,
+    22820,
+    23311,
+    23900,
+    23910,
+    23920,
+    23930,
+    23940,
+    23950,
+    23960,
+    24502,
+    24503,
+    24504,
+    24800,
+    24810,
+    24820,
+    24830,
+    24840,
+    29042,
+    29043,
+    29800,
+    29810,
+    29820,
+    29830,
+    31800,
+    32800,
+    32810,
+    35154,
+    37252,
+    39311,
+    51234
+  ],
+  "reviewed_unchanged_resource_numbers": [
+    899,
+    900,
+    902,
+    993,
+    994,
+    6221,
+    24505,
+    24506,
+    24507,
+    24509,
+    28050,
+    30080,
+    30090,
+    30110,
+    30140,
+    30170,
+    30180,
+    30280,
+    30290,
+    30310,
+    30330,
+    30350,
+    30390,
+    30440,
+    30460,
+    30470,
+    30600,
+    39060,
+    39070,
+    39090,
+    39120,
+    39121,
+    39150,
+    39170,
+    39210,
+    39240
+  ],
+  "assets": [
+    {
+      "resource_number": 5,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00005.p56",
+      "source_sha256": "7A13E3D8B8F0429A49E519D77486C618B9A65D91B66B5846962049B8642F4B2D",
+      "source_dimensions": [
+        640,
+        480
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00005/cel_000.png",
+      "translation_sha256": "61F60B3D06C914D1BD6305D30AB3BFBEEE576C03B26E5150ECD3CD874CD78DCD",
+      "translation_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "resource_number": 910,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00910.p56",
+      "source_sha256": "754EA0EC4AAF24D54133B8D8B09D0E2B97C5C632A13E09DEAF2817918B8132DC",
+      "source_dimensions": [
+        640,
+        480
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00910/cel_000.png",
+      "translation_sha256": "020B6B2FC674326419A2FFFD18A80FAF69923AA0D966779B4290C3B4A487B8DD",
+      "translation_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "resource_number": 911,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00911.p56",
+      "source_sha256": "67E178C13AA3DA6EDF1227998A486DE427CD9F4451C67D6F0724E5C9E51685CC",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00911/cel_000.png",
+      "translation_sha256": "E1E4F851DF72269DE9C0DE5A707D643FD26789F3E2DD582224067AE68BFF89E0",
+      "translation_dimensions": [
+        1551,
+        1014
+      ]
+    },
+    {
+      "resource_number": 914,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00914.p56",
+      "source_sha256": "D590E02E2C6BF4C524F5D123394C80D57EB195A0BD688894D21816B4FBF038ED",
+      "source_dimensions": [
+        640,
+        480
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00914/cel_000.png",
+      "translation_sha256": "74CC7F525A182E3851B4985AC9C162E55A502BD75E084491EB27100C1250E145",
+      "translation_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "resource_number": 918,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00918.p56",
+      "source_sha256": "7C6733E8DB2B75C8FDE55A106416A9ABDB7F19916532AC9B3EFF891859A3859E",
+      "source_dimensions": [
+        640,
+        480
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00918/cel_000.png",
+      "translation_sha256": "3394E6C782714A9945D4791407CD9AC6674B1E98963495660B7E7623ACD19287",
+      "translation_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "resource_number": 920,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00920.p56",
+      "source_sha256": "1F24E6A0A7A8293525FFCBC6EA812988D2EF70B79D53FB61D45B2978F2502AA1",
+      "source_dimensions": [
+        640,
+        480
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00920/cel_000.png",
+      "translation_sha256": "C41A7EA188F4502F36979C31BF39D271E5F0D4D50D06DF93162EB2BD3C2A0AAA",
+      "translation_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "resource_number": 921,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00921.p56",
+      "source_sha256": "3BFFB0B3E529AF9517C721EB850B61F8DAB6B6A89D80FC8B127F7AF35A844008",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00921/cel_000.png",
+      "translation_sha256": "00D21665D2BC7196280AF076EDB84C0C4451FA4244FC3B4991D0ABD3DCEE1E77",
+      "translation_dimensions": [
+        1551,
+        1014
+      ]
+    },
+    {
+      "resource_number": 922,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00922.p56",
+      "source_sha256": "7CE74404EC9F3BE66F85B0501044FAA4C8C185E227522C50989038B2A609BDEA",
+      "source_dimensions": [
+        640,
+        480
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00922/cel_000.png",
+      "translation_sha256": "37F8220A7BA69201E15752F3CCF31793FF6D396423ACAD4895FFE3C3204C84DA",
+      "translation_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "resource_number": 923,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00923.p56",
+      "source_sha256": "F0B7D197BAC1600CF66B53C9BED281BB91D6047DA70E7175CD8175709892FC71",
+      "source_dimensions": [
+        640,
+        480
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00923/cel_000.png",
+      "translation_sha256": "3394E6C782714A9945D4791407CD9AC6674B1E98963495660B7E7623ACD19287",
+      "translation_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "resource_number": 927,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00927.p56",
+      "source_sha256": "F0EF9E585CB78CAEC5C68502D99AA127CE849ECD0BCB904801C73129ABDFABE7",
+      "source_dimensions": [
+        640,
+        480
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00927/cel_000.png",
+      "translation_sha256": "D566010769BA68817B11C2775E3582C789B833D3B995FC5FD66287DE7EDB04BF",
+      "translation_dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "resource_number": 991,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00991.p56",
+      "source_sha256": "C18353A4504066F7630C9A5E2FCDBFA8A45F2E5D84E823151FBA42F1F7F843AA",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00991/cel_000.png",
+      "translation_sha256": "F65C9C197F9F255E8C32D35F0CE0CBFCD1811B266405129EBC19EC5C33D77B45",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 1003,
+      "source_path": "workspace/graphics/english_assets/raw/pic/01003.p56",
+      "source_sha256": "E872BE85D8EA5B9B54BDC4D07664BA146C0A34261A39FE079C52DD5224B6B18D",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/01003/cel_000.png",
+      "translation_sha256": "BC3E76921A0141D152CF7B2ED71EAEEB5C0BB6BBB9637C6CACCB8DFB800527C9",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 1004,
+      "source_path": "workspace/graphics/english_assets/raw/pic/01004.p56",
+      "source_sha256": "7EE5BC7BBC63BE811F5210728703F88B95454B27EB585BABE4DD5A230EA83303",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/01004/cel_000.png",
+      "translation_sha256": "B95283D07968762053ADD04BFAF952E83742DEE1D50EAEEEB85E7EDEEAAEBBA2",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 1020,
+      "source_path": "workspace/graphics/english_assets/raw/pic/01020.p56",
+      "source_sha256": "3A8501BA6FEAFB98DF42884638C599D1B06CA13556CD4CDA6BA31205925A8507",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/01020/cel_000.png",
+      "translation_sha256": "F35F880899A100E8F122CB7D49104E91B03B1EF26E6A421D5C02C8753EC91D8C",
+      "translation_dimensions": [
+        1450,
+        1085
+      ]
+    },
+    {
+      "resource_number": 1030,
+      "source_path": "workspace/graphics/english_assets/raw/pic/01030.p56",
+      "source_sha256": "40D3B56EBCA0342C9EFC7323D1E8BA1A0B30A59D8283DBEED0DD60E1817C45F8",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/01030/cel_000.png",
+      "translation_sha256": "DBD1A687CE152FC1EE8165D779E865F7AE1EDAA3E3F00C2BF1847A9538F39E35",
+      "translation_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "resource_number": 3111,
+      "source_path": "workspace/graphics/english_assets/raw/pic/03111.p56",
+      "source_sha256": "226A15EE8699079030F2006806B740F8F8FCA39DF69D245B71B8CA21912D3B49",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/03111/cel_000.png",
+      "translation_sha256": "00B900A39F488283ADB5985AD3CE04B615DB61C63D7BA09DE397BFE8E0424BFB",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 3112,
+      "source_path": "workspace/graphics/english_assets/raw/pic/03112.p56",
+      "source_sha256": "3FCB976D84DE026DAE657D1B1FA12EB29780FF20022B83CC669F512E66328365",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/03112/cel_000.png",
+      "translation_sha256": "0CCACE5C46E2BBDCAFD868BF39922FCB53CDB4BAE70C9226C5487DF8CB1C0832",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 3113,
+      "source_path": "workspace/graphics/english_assets/raw/pic/03113.p56",
+      "source_sha256": "16D2DC9A1CA81F21D2943118F30EB30A17C0B5361546CEBC3F84ED6231FC6630",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/03113/cel_000.png",
+      "translation_sha256": "3E18BA1E096B1BD00978731C238D76A4FA4D94BA63D83CF20A4AFE8A45E2FED8",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 3114,
+      "source_path": "workspace/graphics/english_assets/raw/pic/03114.p56",
+      "source_sha256": "963A690E71F0A90954F8EF11CE05A9FAA75EB2039D695172211002F11A9E476E",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/03114/cel_000.png",
+      "translation_sha256": "F31605BD5FF6B16650C202B8069B3040A79013DFB7AB3D2ABA219631CBED98C5",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 3115,
+      "source_path": "workspace/graphics/english_assets/raw/pic/03115.p56",
+      "source_sha256": "535674EF5C3606AB68CFCF8C145C25C011C1E196222699DF01E1593440DB7953",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/03115/cel_000.png",
+      "translation_sha256": "3DBBE249F2A180ADF39E27AC2EA77281F7EFF1940449A1F67E22FB657AC5D9E1",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 3116,
+      "source_path": "workspace/graphics/english_assets/raw/pic/03116.p56",
+      "source_sha256": "F2F6714DC8E992D4FBB9BF392CFAB91ABF743F88984209815C85B32A1823B0CF",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/03116/cel_000.png",
+      "translation_sha256": "18D23C2635EA90A61C642AE76E691B1AB2F2859B5A94D4C71F14D5CF505EE0CC",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 3117,
+      "source_path": "workspace/graphics/english_assets/raw/pic/03117.p56",
+      "source_sha256": "7B8C5FFE72598D39424863102E387A60525DC2142CCD279CA3FB95DCC5DDC27A",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/03117/cel_000.png",
+      "translation_sha256": "92B7E389A459D880510AC9117099D1C74F3100597739F1DB342570B2AD4B3C4B",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 6111,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06111.p56",
+      "source_sha256": "4542778848CCA041ACE9683FFD8E94A723218489EFCD5147BBF9313214D62EF3",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06111/cel_000.png",
+      "translation_sha256": "43E42A78A531D9754BFD531B304EB94B751BDE33660E1259DE6A304B0863876D",
+      "translation_dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "resource_number": 6162,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06162.p56",
+      "source_sha256": "35DABD92BA3EB81FD4C8B93837D0238BAE35EACF037D29CFFCE2992E7DC2B200",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06162/cel_000.png",
+      "translation_sha256": "2418F63DCDA567022D18FEDE4CB08869C8A72B7BE41BED42A97AA6A9586806F3",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 6163,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06163.p56",
+      "source_sha256": "BECF5CDACF55E36EBDF9DFB96EB42FCF5013C321F55CCEAC9FB5098E34E33D1E",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06163/cel_000.png",
+      "translation_sha256": "B46E5F873EA5A203F3C22215318A3575C322F4D11A80D8910ECEC348A75F9702",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 6200,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06200.p56",
+      "source_sha256": "6257805BB5DA394538FC2F4F37D88C5E8FDEB61661AD1575866CB71E8F782D84",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06200/cel_000.png",
+      "translation_sha256": "0F7E7FB8AA712A37F271BD1355A59BCB9CC129EE9E52A964982988EF145D98C1",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 6201,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06201.p56",
+      "source_sha256": "C79C9E9B471E69B8F57BB3CEB3E6C0CA78AEAB3205011D52388BA1F1BFB6F56D",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06201/cel_000.png",
+      "translation_sha256": "71252754968435A6BCC89D0AFA6952158F822785B4ED4F438180E3AF463A05DE",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 6202,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06202.p56",
+      "source_sha256": "44B3BF04F0D23D3FBB7C920C9658633CE0F9455E58610D6AFD825DA37F150419",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06202/cel_000.png",
+      "translation_sha256": "3F7AF17AB388857E99EBDD1D2B4847E05CE86DA159EF583E6450B38066B99991",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 6222,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06222.p56",
+      "source_sha256": "A0FC70ECBF074CB25FDF5A9EF85483DA47A09C780B1AF7E6DFEAECF5AA693607",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06222/cel_000.png",
+      "translation_sha256": "103A1201ECFDB0E907D7AB023111E537F302F9BB3BD54EF4FC9E7B95292B26BD",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 6223,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06223.p56",
+      "source_sha256": "C683BAE8DA5E27D6162B37B02636702A01815B1F3CDBADA8C98484B85F9FE033",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06223/cel_000.png",
+      "translation_sha256": "7B087985A1E2F5783A4DC43718DF3C4690F6BFDB960AA4168FAB8437AE890B59",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 6224,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06224.p56",
+      "source_sha256": "59FEB04056AB66943FE0ECCF33BD4901F46D8C2DFACB9BA3A38CA7333F494DE5",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06224/cel_000.png",
+      "translation_sha256": "6AFC7F8437969B213221C960B438596F50E20D54C1CE856E95C9B6B1FBBA4174",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 6225,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06225.p56",
+      "source_sha256": "FEE919F603ED30F40CFA104B7E19F80C3B577C5187DA1FB9FD40026E44812708",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06225/cel_000.png",
+      "translation_sha256": "DF1F1C309E0F503ACD7E4BC177E1F974713D64D48660ABE172C3DD0AABBD4DA5",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 6226,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06226.p56",
+      "source_sha256": "77A7B1D86787A13968F1E9776D4BEB6C6AE532ED3AA0171F98CB0FE30413FC57",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06226/cel_000.png",
+      "translation_sha256": "324E28A291258F2B472FF757AD91528D47B84594D39609E374E40336CDBC02D9",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 6227,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06227.p56",
+      "source_sha256": "297A60B0C39AB4CBE3E0F17421D1E0BF90AA5C4D93B87D1CEF6C9FCF91211E72",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06227/cel_000.png",
+      "translation_sha256": "6A1E394D7442EAC5E7EA36A2536F8796946D20DD14B87D6A504A50319923655A",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 6228,
+      "source_path": "workspace/graphics/english_assets/raw/pic/06228.p56",
+      "source_sha256": "8AD77000F2A2D6FB2D775C2B76B22130760CBE1F46AC762834E8F098D6B07C5F",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/06228/cel_000.png",
+      "translation_sha256": "FAF6EF4D93AE05B13B4D61A2E710753D9539A52713D5B1D9DCF1C71C7D6216D5",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 7162,
+      "source_path": "workspace/graphics/english_assets/raw/pic/07162.p56",
+      "source_sha256": "A15B966AE229990EB182375EAD819876A157A11F4413902E6EF8A3614313E89C",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/07162/cel_000.png",
+      "translation_sha256": "D7116DD6BB8C803FF636EC55F2938C3203523DC293CF21761DFEB645FE0E5CED",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8342,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08342.p56",
+      "source_sha256": "71EE351A9064F5B4DE51471A11E2C8C7888262EF0043D0E156F6F949C33CC689",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08342/cel_000.png",
+      "translation_sha256": "D7F512E070A381DC54D409059930B39C29A73BAB533768FDF3D3E7ED6DC37DD6",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8343,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08343.p56",
+      "source_sha256": "F8E2BCDBFEAC2F58E942FD030290081DEFDFC732CDE49F568E319B8D2C8C440A",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08343/cel_000.png",
+      "translation_sha256": "6AA16784D407E01375108A84EEFD4C393954801EA89C4B74FEDB902A47C923E0",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8344,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08344.p56",
+      "source_sha256": "8F60C46FDB2814B87CBD493D020967142DC1D2184543D012B32452D843C8514E",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08344/cel_000.png",
+      "translation_sha256": "549F1C3E17DECF88DB8A3760F7AF29F17C47BB4EC96DE5B87C60358A021CDB9D",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8345,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08345.p56",
+      "source_sha256": "4191CCE8B63B3ECC8CD3944463C673832DF95D3129A8E62B66D15FBAE50239CA",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08345/cel_000.png",
+      "translation_sha256": "A737D911D3F9B2B34E588DDF8FF2377A1A7E24492865AFF2F589E97663C00CD0",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8346,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08346.p56",
+      "source_sha256": "18B8B76AA0D91F64260DFEC38C6ADBE6172D598A62770FEFCC88673219B37CEF",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08346/cel_000.png",
+      "translation_sha256": "4E677A9471BD4FA43EA2BB031B7CBD0395D5B18BC376334796A1B9B2493B302B",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8347,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08347.p56",
+      "source_sha256": "14939D58BB0B299B41BA45299DD0AA53BDE44A7CB50427A3D327F1E962F4736E",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08347/cel_000.png",
+      "translation_sha256": "20B99F162AAB7F7C555F4BFDEC20B0E881BEB19400C94FFD93742238F41D6115",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8413,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08413.p56",
+      "source_sha256": "F636A03EA8F6B0753496DBBBCD88A13D906BDAECD9DD2926F523A80266CA7510",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08413/cel_000.png",
+      "translation_sha256": "9E77F740B238BFF0CE1BF5DEB120247DF4A6D11D88711BA056C38EBBD5F4E1A0",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8414,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08414.p56",
+      "source_sha256": "687872A4E1EF2DBDE1D5C9AF3D4A682CACEB6D80998443A9C9D1E2197232755B",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08414/cel_000.png",
+      "translation_sha256": "207B2FF2DAF32E8187A2EA8CD462ADD92C6E3F68F0A5ABD28695AA2B793A6B7F",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8415,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08415.p56",
+      "source_sha256": "298F1F3FDCBECE9C9F0A60D0944B90D7E990CAB1550540BDEBDB4F37116B5CB9",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08415/cel_000.png",
+      "translation_sha256": "F5EC913C5BB8B72437C488ED2FA3F6C2CD17FA05F5BBB41B10B0FD07CB2D217F",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8416,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08416.p56",
+      "source_sha256": "5151341BB39DB8A7EB8A9DD1BFEB87C4C0B5F49BF8BC377BD657C2D0BBF91DFE",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08416/cel_000.png",
+      "translation_sha256": "528D62296A76F08AB2C5D0DF1B1FDC34292C9B639A3DC063EEB46BDFBCCAB5E4",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8530,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08530.p56",
+      "source_sha256": "DE549A8084E25998D9973D9D136A0FB08EE1C48E1ACDC8353A45F716CBFD999A",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08530/cel_000.png",
+      "translation_sha256": "04B2F645BCBA1F12492EF531E9444837E17F444EB976C35222A8CBE35D901B8D",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8630,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08630.p56",
+      "source_sha256": "829655044324B1D37C2459A4583179F2AE2BD7A07B255E5491C3C19030EB8F02",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08630/cel_000.png",
+      "translation_sha256": "FAE5766FFF65D3E12B336B901D3F1540910B46F0757B28DEB3D91E60B7822C44",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8650,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08650.p56",
+      "source_sha256": "3B33E3986C2782EB35522C623AFB60F5D2FABA41B06E27F8734A6454B3E0816B",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08650/cel_000.png",
+      "translation_sha256": "ADB1C1C45EBE10D0BD1F373FC229CB923C3552CC851A8D4E087270A9938F2A0C",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8660,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08660.p56",
+      "source_sha256": "C0D1BC3625914E57F8A1B3932829DA41DF658B100AAB6D5E46393205EC63D5DE",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08660/cel_000.png",
+      "translation_sha256": "A52776CCFB6C9D46E547C5254392F40595DC05F7EEB30C2B3D61C4DD00F7C52C",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8680,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08680.p56",
+      "source_sha256": "D0BA248F33192C7F1E8A7A7657EE7E11B09CF263610BE50383FEC5A37CAA60D5",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08680/cel_000.png",
+      "translation_sha256": "96A3C5DB265682A809974EC2A7DF98D84D4EE0466237A22EE4F5CC895AE647C8",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 8690,
+      "source_path": "workspace/graphics/english_assets/raw/pic/08690.p56",
+      "source_sha256": "D07C775A044B1FBA431FD8EF32EE01A1EA840C147828F359EBA45DE0CD0CEF2A",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/08690/cel_000.png",
+      "translation_sha256": "B88B9C458BB81A6D6FE5F29E7CC156298682EAAEFCECEEBFD4750731C4E7D535",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 9800,
+      "source_path": "workspace/graphics/english_assets/raw/pic/09800.p56",
+      "source_sha256": "C27999370D044298AD78EB2E2740E684828F7DFDC96C8ABA681BFA54489F2949",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/09800/cel_000.png",
+      "translation_sha256": "0F7E66DA772DC6607E701EB5E0372FDC9A39DA5990BCC2C28E033980D3B643CD",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 9810,
+      "source_path": "workspace/graphics/english_assets/raw/pic/09810.p56",
+      "source_sha256": "2F19FAD45C1F4676C9DAA5C9E55B339A4D4F5ECE8C9D364BB921E20560EEE910",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/09810/cel_000.png",
+      "translation_sha256": "04404BB94F090B14F88005A6AC60BD60795731F090189B3860CA46E199CB4C99",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 9901,
+      "source_path": "workspace/graphics/english_assets/raw/pic/09901.p56",
+      "source_sha256": "1A12BCCAD84548162FDAFD8743773F5812750A3576127BF9D79F741FF6B19976",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/09901/cel_000.png",
+      "translation_sha256": "72B0780863602FE6A5E5D6208D0B954F42D30DD65F7DDC7482686AE866A82182",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 9902,
+      "source_path": "workspace/graphics/english_assets/raw/pic/09902.p56",
+      "source_sha256": "4AA0FF79997C0F7D4E5355C1C77A2EF060A5C01859C46FEBC2CC8BB958C2973C",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/09902/cel_000.png",
+      "translation_sha256": "531A099CA168BCBBDFFA731FA2C6AF1791960E604B6833BE4B88C948E554B0C3",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10122,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10122.p56",
+      "source_sha256": "AA4C8D0588A5A8C6A9891D6799C97213F67BA6DCFB63204991EE65061E73DF47",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10122/cel_000.png",
+      "translation_sha256": "EA761481BFC7E0857702D416A909BD6E34B2A0ED91570E1EBAFE704B23E471AD",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10132,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10132.p56",
+      "source_sha256": "59C01D308368B72921034E244F162D5DB0006F4EF15F1AFB28FA6BD63F24F4BD",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10132/cel_000.png",
+      "translation_sha256": "A3ED6726BEC6C9E09BFA237C1BCA4D5351E93A60EC328F355F30D5C9D9EA44B4",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10133,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10133.p56",
+      "source_sha256": "27F6027B0D2982DABED54DFF9BA04A311DDFBDFB846D54665BAC64E37056E97E",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10133/cel_000.png",
+      "translation_sha256": "DC6203FD4568360BFBDC54B6F099DE2A451CA4674448D7C658ABF8741168259A",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10142,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10142.p56",
+      "source_sha256": "4C7DB05CAD54D4F4540BB797BE8B376963935325F0861E16C62036386915DD5D",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10142/cel_000.png",
+      "translation_sha256": "97E4B08FF110AA1B54867A06E953EB77554E1D460F996FD8BE3D92AFA14E8ADB",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10204,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10204.p56",
+      "source_sha256": "9A2290479AF589254536B4907D75008C8C66FCEB1F8E0FC77B4C8699A3E8870E",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10204/cel_000.png",
+      "translation_sha256": "34280F42DC8386C919C6FA2310C2176AAEF59EE2DA92B314F36B1D5AC77E53BE",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10205,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10205.p56",
+      "source_sha256": "94B2705733A7D852D08EB02A6871198B9047D5A2350CED27FAD7842A0D843BF8",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10205/cel_000.png",
+      "translation_sha256": "08F905AE9536333A2A214352050A4E2E684E1DD3228E0D49D4D8FB3D104085DE",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10206,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10206.p56",
+      "source_sha256": "A97BF80C4E8FE1ECC9FFB24F70EC8B21D935093A368EC8332703943FBAD9E7E0",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10206/cel_000.png",
+      "translation_sha256": "B9ABA9FF7C540644596FB4FCB56D393D47A1843A3B5365C72BBFFD62F557B893",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10207,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10207.p56",
+      "source_sha256": "A85377CD2AE898AFFAA8F07A0B5CE0B3B5DA609EBA59EB502ABDDFB69CE42933",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10207/cel_000.png",
+      "translation_sha256": "C2E0C4E9FBB368DAAC028DF529D7D0CD77E97F7EF269259F454EC8C8DC16ECC9",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10208,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10208.p56",
+      "source_sha256": "EFDD647623302EAF86B596C5E70B48B06486C93F3D8798E81B6458F528CB5B14",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10208/cel_000.png",
+      "translation_sha256": "68E820C3CE05CCBB8070B350CBFFFC917CC8639EEA70C18BB8F7E6CF75D2E2E6",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10209,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10209.p56",
+      "source_sha256": "FBD69FC9C66CA8C0756642EE84513DDD0DF1B80F9F8B058E5FBB0E18E859B16A",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10209/cel_000.png",
+      "translation_sha256": "06E29A04D1577CD7E1CD38B86639F42E8FCB6757BB6608784522932467693AD0",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10211,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10211.p56",
+      "source_sha256": "AC9E95E54795C63C7897830D9F787A9E70B395CAB4A9795EBC00CF248F8353B1",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10211/cel_000.png",
+      "translation_sha256": "4F862D17171E5FDFC11E24BAEC887FD86605B9E06959155963D26B06228BB8B0",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10212,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10212.p56",
+      "source_sha256": "E9BEBDA2486301A93CC79269CFDECB02A27A9F520B4BBA04E9DB3204146B41C9",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10212/cel_000.png",
+      "translation_sha256": "E080D0348ECE61E3912A850A242E937ADD5A89F788AB8343DE1C6C3A1ACC844F",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10290,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10290.p56",
+      "source_sha256": "DFB1EF61DDA2187B6AC75F81FCA6A61AA34D3A885565E9455AD7A3546B1511EB",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10290/cel_000.png",
+      "translation_sha256": "D2F0A2EB6E5B7D4FE4C64AB3113406B96452BB1A5035026324338C87FC4A1A76",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 10481,
+      "source_path": "workspace/graphics/english_assets/raw/pic/10481.p56",
+      "source_sha256": "B083FED5EA7EC5FCA2C7C9F22041A2DF24001E9F86175519928F5E904589D1B2",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/10481/cel_000.png",
+      "translation_sha256": "97E4B08FF110AA1B54867A06E953EB77554E1D460F996FD8BE3D92AFA14E8ADB",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 11400,
+      "source_path": "workspace/graphics/english_assets/raw/pic/11400.p56",
+      "source_sha256": "C3C18402BDBE96BDF117DD7867491F04A36A1B4EA353A69DC6A747325CF09D58",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/11400/cel_000.png",
+      "translation_sha256": "40821FD1F148C16F59A2ED0A331FBE5FD8CA2EB357D60CC24DE8959E8ADDBD63",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 11410,
+      "source_path": "workspace/graphics/english_assets/raw/pic/11410.p56",
+      "source_sha256": "AE50D1C0A9C962DCAE521C12638C02490170BCA7AEC5CD4CDCC38C25BBC00A93",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/11410/cel_000.png",
+      "translation_sha256": "666B3A42D7D5E448A53CCB2C9B88DF04903372D0C4F52E0763926ACB2CC3B40C",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 11420,
+      "source_path": "workspace/graphics/english_assets/raw/pic/11420.p56",
+      "source_sha256": "08C62EDFB57B0EF04584B8A5591FB9F7A5819412F8B396AFAF229CD1EFB07D1C",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/11420/cel_000.png",
+      "translation_sha256": "F24C951B4E702B23C1513EB04C0862F4F730F6DF107DE8F8CC1C985703AAA0B5",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 11430,
+      "source_path": "workspace/graphics/english_assets/raw/pic/11430.p56",
+      "source_sha256": "DAF240D4A01046CDE82EF1BD8B0B2590177C1AA5709BF7954F9AAE5164B0C024",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/11430/cel_000.png",
+      "translation_sha256": "48E0AFBFDAAEF442E2A7D8883F71CD3356E17DB3BB1EC5CDCB22A8DA0E4AE21B",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 11440,
+      "source_path": "workspace/graphics/english_assets/raw/pic/11440.p56",
+      "source_sha256": "386CCA143E2AFECD525E9B445344DA9A0DE7C9ED2AA3563C2987EADA559FE464",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/11440/cel_000.png",
+      "translation_sha256": "C25DF8D0106D316626CF4764873DA6CD6CB049A56E976D0D173BE8E338D1E271",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 11510,
+      "source_path": "workspace/graphics/english_assets/raw/pic/11510.p56",
+      "source_sha256": "2E00F1CDC324808B5312CC567D54CBDA1E38D2E05C42554FDD2AF325754FA34A",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/11510/cel_000.png",
+      "translation_sha256": "EFF4964AF22E6FE0452339E6C22B724980E218980751E4ECA543C531FA69849E",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 11900,
+      "source_path": "workspace/graphics/english_assets/raw/pic/11900.p56",
+      "source_sha256": "A8BF653C8C251B443FFE0314260D8A21C8370B5014BD0A49E3A15DB298E2E249",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/11900/cel_000.png",
+      "translation_sha256": "5EFF32691D3EB5CF5B8DC54FAF05B2F9D928885B5FCCB92D3145A2DF36B16C3D",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 11910,
+      "source_path": "workspace/graphics/english_assets/raw/pic/11910.p56",
+      "source_sha256": "44BA32F05A4D878953121E42E357BDF7497BA94190337C9EA9BB578B4D71BC4A",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/11910/cel_000.png",
+      "translation_sha256": "8C2340F3D607655947CEA3228C8CB2013AE4D04AAF95518CBBA3205CF377A427",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 11920,
+      "source_path": "workspace/graphics/english_assets/raw/pic/11920.p56",
+      "source_sha256": "C439DB00474965141493663BE3D8E0708A4BA7BB1EDA18FD8D6908D2BCA94BD7",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/11920/cel_000.png",
+      "translation_sha256": "AD278C265DB261FA148FEF59D5FBCBB37EA0383E27B52F68AA7D340F71DA9117",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 11930,
+      "source_path": "workspace/graphics/english_assets/raw/pic/11930.p56",
+      "source_sha256": "3ABCBF306E6DFC151CA3DB05EFFD6EAAD73F1B2E05E36175F46E399154FAF3E0",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/11930/cel_000.png",
+      "translation_sha256": "C32D82D8EFD44C26B70DAFCAEEBECE142ABEB9ED5AC6295FCCBF89F5AA0EF69A",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 12182,
+      "source_path": "workspace/graphics/english_assets/raw/pic/12182.p56",
+      "source_sha256": "6D9E05B3DE95CB460DC0963CEE8B75F17686C80278C6E5D1608B2E59DF1EBF55",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/12182/cel_000.png",
+      "translation_sha256": "EDDD9A31F67A587DF6857984C8399AE52706A4BEC6BEA078D128A7353B15A188",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 12183,
+      "source_path": "workspace/graphics/english_assets/raw/pic/12183.p56",
+      "source_sha256": "558DB8A08BA97E269ADC4541655DB01AAD9406903C2128A3D8D5ADF10DD3CC2B",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/12183/cel_000.png",
+      "translation_sha256": "5927781D8634462739A932D49FB7044F8929D2D73C75C47205484197F91BCE82",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 12184,
+      "source_path": "workspace/graphics/english_assets/raw/pic/12184.p56",
+      "source_sha256": "B2A3C2F53F71BA138C3F05A3B55516ACEC614BFC53B18DDDA644A13C651367AE",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/12184/cel_000.png",
+      "translation_sha256": "2AEFF708F4F39B65AFA6C97DBB78FE8C4F6BFF4A043994160077F76E5A691E3D",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 12185,
+      "source_path": "workspace/graphics/english_assets/raw/pic/12185.p56",
+      "source_sha256": "254C47522C3F1AEB0B1AC857EA02D5A0B54D495F5FD40B4D9E427AB21EE37D7F",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/12185/cel_000.png",
+      "translation_sha256": "E0318827B291EF10E446B225F46DEDD5E435A194C39D9F010147B34B4C466F41",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 12186,
+      "source_path": "workspace/graphics/english_assets/raw/pic/12186.p56",
+      "source_sha256": "4BD0E7BC52DDDBA76766C3687E6AB5DAD7B2F4524F98AA38995C1B646B059169",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/12186/cel_000.png",
+      "translation_sha256": "A965A8CBCD7F2163ED1FD930213DD0B481143222965C5BC03249845FAF87C707",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 12550,
+      "source_path": "workspace/graphics/english_assets/raw/pic/12550.p56",
+      "source_sha256": "38F4E87AB7AD7C9C888A6C1D039081BBD1A80AE6F1EA1B645FBDC923879EC308",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/12550/cel_000.png",
+      "translation_sha256": "792ACD32CA6F6350929D340B4FC0A012E46027FDBBCA0143ABB42C2C8BDB5F8A",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 12560,
+      "source_path": "workspace/graphics/english_assets/raw/pic/12560.p56",
+      "source_sha256": "F0878014EE128937681EC42B88F44CC930D32908A70ED7F36F37B87A925A87BE",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/12560/cel_000.png",
+      "translation_sha256": "239DDBEFFDB77B1F0E178B5348F488853DFC86A5575652FD3996EF974D962DD3",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 12570,
+      "source_path": "workspace/graphics/english_assets/raw/pic/12570.p56",
+      "source_sha256": "C288D33D5D3C6567E96AEBF5DD0C727182259BD88BF4EE65E231AA60146AF28C",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/12570/cel_000.png",
+      "translation_sha256": "4C9B9196CC0BE552BEAF5DCEF48AF21A2F36F4E8DF16BB6C64752073AE2E7F7E",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 12580,
+      "source_path": "workspace/graphics/english_assets/raw/pic/12580.p56",
+      "source_sha256": "92645A8DCAB704CB0B1A99CE7834B68083F5882C23EEEB0E0F0400A1D1187285",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/12580/cel_000.png",
+      "translation_sha256": "99A5EDC228FD1633C61DED3560781B0A5053598AB49A35FA4C32CCDD7C5A3A2F",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 12590,
+      "source_path": "workspace/graphics/english_assets/raw/pic/12590.p56",
+      "source_sha256": "6AC3AB6FA705D018F54CF3D40A6C05FA9FD712F86888AD83190BED32CD81F99B",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/12590/cel_000.png",
+      "translation_sha256": "12D57D629C1D1B7BD23F938A6C1B2EFB7D2189CD1B3C10C51B3AE06854E403A3",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 12800,
+      "source_path": "workspace/graphics/english_assets/raw/pic/12800.p56",
+      "source_sha256": "56A258A1C3E22FF19E59C02EABDF06A92ED2D56D610072B38E030F1604BC1F02",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/12800/cel_000.png",
+      "translation_sha256": "8B4695491A02CB46F0B368D0F30E18CB6349495CE8ECA77FF2FFEAD0A880464A",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 12820,
+      "source_path": "workspace/graphics/english_assets/raw/pic/12820.p56",
+      "source_sha256": "4F8D012F8185D1954E35205A2F6FAC47C2EAE9C0984523339FF092936EA5CAC4",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/12820/cel_000.png",
+      "translation_sha256": "239DDBEFFDB77B1F0E178B5348F488853DFC86A5575652FD3996EF974D962DD3",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 13891,
+      "source_path": "workspace/graphics/english_assets/raw/pic/13891.p56",
+      "source_sha256": "7DAB920DEA0C990C7F972169811744B33BC613F0FF68C96BFFC110E479DC07B7",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/13891/cel_000.png",
+      "translation_sha256": "5C0BE48DE24EC8C4B8398B3297C18E8C8A8B8E020950771F1DC12071B9B7203F",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 14200,
+      "source_path": "workspace/graphics/english_assets/raw/pic/14200.p56",
+      "source_sha256": "28DA25CD928D59ECA92355340D6295C81D880C46ADDC2B52C5827A00E5CAC621",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/14200/cel_000.png",
+      "translation_sha256": "1AE9E99D4392991EAA70635BEB65ECDD53538BA38084F088F1728EF84C3DDF51",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 16431,
+      "source_path": "workspace/graphics/english_assets/raw/pic/16431.p56",
+      "source_sha256": "BD09F155FCD8DF7C5F4E1A0D4FEF134551E3DFCDD7C376BFDBBDED93FC70C413",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/16431/cel_000.png",
+      "translation_sha256": "703AE2D5F1D48E63475D4A0BA7705E71DC7B673F262C3CFD5E2CCA28AE5C2D62",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 20441,
+      "source_path": "workspace/graphics/english_assets/raw/pic/20441.p56",
+      "source_sha256": "BCE0E3FEC84C4A4EFD3E6C7E4AABA29AE6E806186B93B667B9BE6C22A45DC124",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/20441/cel_000.png",
+      "translation_sha256": "B13DD798F99C68B5A5D9C0A99440C254F57680707F5B8D4D76DA6DA0937454EF",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 20900,
+      "source_path": "workspace/graphics/english_assets/raw/pic/20900.p56",
+      "source_sha256": "3BB8D4EB0661D64715AEAE041DE58FADD109CA384C415B3F0D2C4DA8C043F201",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/20900/cel_000.png",
+      "translation_sha256": "2B52DD75F40F88137F4351686C498BE9087FC5A4412B1922B98F4315485D7A2D",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 20910,
+      "source_path": "workspace/graphics/english_assets/raw/pic/20910.p56",
+      "source_sha256": "2E0AC4D17B8CC678CB00372AAB2B6141777A3CFADC0A1C555EA57052E9A1A56D",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/20910/cel_000.png",
+      "translation_sha256": "24625A1728E4AD421EF02F276FBFF1EC3EDF19F54CD93BEBF7BC5EC133E666EC",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 20920,
+      "source_path": "workspace/graphics/english_assets/raw/pic/20920.p56",
+      "source_sha256": "CBC85EE328329E77E4EEDD27AD2BB8F4D20EED1F4AC0153D9C6898485084BB4B",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/20920/cel_000.png",
+      "translation_sha256": "BFE0D54ACF1A1C3E39F2C9C1BB49583D31247FD8CF87DC06B4BD3E0F08A83668",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 20930,
+      "source_path": "workspace/graphics/english_assets/raw/pic/20930.p56",
+      "source_sha256": "8FAC406760FA03763392CAB3A11CE37957ADBB932A7E43E0006E0F98A4A5120D",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/20930/cel_000.png",
+      "translation_sha256": "55EC25CB4CD499FECE9A05F8F7010AAFF73BA4A7C63BB996C9D1A002F0360CEC",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 21141,
+      "source_path": "workspace/graphics/english_assets/raw/pic/21141.p56",
+      "source_sha256": "7C50448F21BC0CD73D4688F5B2286ACC59A09FC053C98B531E974F4B43EADC98",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/21141/cel_000.png",
+      "translation_sha256": "847015A86BCE0795B3FE509BBD5650367D1E7BAD016907C4B1477CEE77A4FD56",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 21181,
+      "source_path": "workspace/graphics/english_assets/raw/pic/21181.p56",
+      "source_sha256": "5D80CBF668E8118DE515CF5E6E487A8E716F8A08C74107F86C7BDD2DBBED28A0",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/21181/cel_000.png",
+      "translation_sha256": "2958941DC0D5E2B27632A0BDD3E315D8E2CB1AE629B2662FA24109EB227473E3",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 21204,
+      "source_path": "workspace/graphics/english_assets/raw/pic/21204.p56",
+      "source_sha256": "3949EA7B021C0D8AFC7C04EF7FC36E6621EB90103495E85D3A8804FDA966F5BF",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/21204/cel_000.png",
+      "translation_sha256": "00DC95A9CBEDD420A6AAE7EF7A21FC8763EBAF413C428645F7821900C071EE1F",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 21321,
+      "source_path": "workspace/graphics/english_assets/raw/pic/21321.p56",
+      "source_sha256": "112A7C0E02289FD2F6D3D1E4D89CB5D1DB42FE9493DB2445D3C4FC67D9C47073",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/21321/cel_000.png",
+      "translation_sha256": "EB5EEE88739F9D6EF148FD1E44366BB1CF6F00FB667A8A6A7370DA5288F8CB16",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 21411,
+      "source_path": "workspace/graphics/english_assets/raw/pic/21411.p56",
+      "source_sha256": "C11A69F9679D30BF05C2709CC4F06CE555A6383332E656880961AC25B0F90FE6",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/21411/cel_000.png",
+      "translation_sha256": "EFB5D1CF82E126A8949CF2D1B5C624F15CEBEB62C5304C7A3EBA1AB4924A2E9E",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 21800,
+      "source_path": "workspace/graphics/english_assets/raw/pic/21800.p56",
+      "source_sha256": "21F9DB0210C2AD475F7294DABB3F0C43EB317C1748A7EFF1363C4C99365B80B4",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/21800/cel_000.png",
+      "translation_sha256": "58E87A35A4A680F458EFFD494D6CFDC82DCF997728E0F5BCFDC9FDE48828279A",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 21810,
+      "source_path": "workspace/graphics/english_assets/raw/pic/21810.p56",
+      "source_sha256": "5D03B853DDC4BDBE8F3B7BD31EF3A1576318FC7992246F3920CA8AAC49085BF9",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/21810/cel_000.png",
+      "translation_sha256": "EB5EEE88739F9D6EF148FD1E44366BB1CF6F00FB667A8A6A7370DA5288F8CB16",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 21820,
+      "source_path": "workspace/graphics/english_assets/raw/pic/21820.p56",
+      "source_sha256": "E988D295EF49AA244CA650FDB1FF45A2F394772AC0034DBFCCBD5E9856C2F017",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/21820/cel_000.png",
+      "translation_sha256": "847015A86BCE0795B3FE509BBD5650367D1E7BAD016907C4B1477CEE77A4FD56",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 21830,
+      "source_path": "workspace/graphics/english_assets/raw/pic/21830.p56",
+      "source_sha256": "574538750FB4289496C19F00E39E7F6D494BEE31EF467A957F96F5CA7B24F609",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/21830/cel_000.png",
+      "translation_sha256": "2958941DC0D5E2B27632A0BDD3E315D8E2CB1AE629B2662FA24109EB227473E3",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 21840,
+      "source_path": "workspace/graphics/english_assets/raw/pic/21840.p56",
+      "source_sha256": "B6FD73AC81500FEB6A4BA7BB1F91176C325A18972AD2D7BC2DBAB6A50647937E",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/21840/cel_000.png",
+      "translation_sha256": "00DC95A9CBEDD420A6AAE7EF7A21FC8763EBAF413C428645F7821900C071EE1F",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 22800,
+      "source_path": "workspace/graphics/english_assets/raw/pic/22800.p56",
+      "source_sha256": "FAC5D9952A5E9F61BE3584FF9DC33B560AC75146BD34BFC553D452ED37979F68",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/22800/cel_000.png",
+      "translation_sha256": "0AA76C64A37F31DF3F37907B4609AB2E0396DF62C1B0FA1FB40459464EAC7E9E",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 22810,
+      "source_path": "workspace/graphics/english_assets/raw/pic/22810.p56",
+      "source_sha256": "4ADE085536C08A9433A9682C66B7A0B70AEC647F1322DACBA4A3BB49B6C46E7F",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/22810/cel_000.png",
+      "translation_sha256": "9BD2A04754F7429573B1221F57A3D7A980235B732DA7E6654B4013F93643D8AB",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 22820,
+      "source_path": "workspace/graphics/english_assets/raw/pic/22820.p56",
+      "source_sha256": "3C34BA5D3DAE74376C337F5794896CD7B28CC23EADEFD338D4E5F6BF92E2C09B",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/22820/cel_000.png",
+      "translation_sha256": "968EE4D7DF0865AF246249B14B433D1DBBDD4DDF2E11AB77F47D40EC884DEC18",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 23311,
+      "source_path": "workspace/graphics/english_assets/raw/pic/23311.p56",
+      "source_sha256": "991089149E3B45C1D7A5F169CBF643DC55C8888179484B3D9678152FE0B7B806",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/23311/cel_000.png",
+      "translation_sha256": "1DCDC8E672EED610F88393F930266E172F0FD2662CE2D4EB22615C289B54690F",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 23900,
+      "source_path": "workspace/graphics/english_assets/raw/pic/23900.p56",
+      "source_sha256": "3E81CCD372ACFAC2FCFB81DF428881008E93439731E1CCC4EAE689D20325A7A7",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/23900/cel_000.png",
+      "translation_sha256": "0474AD14AFF9920D1C397182E481E864A637942223B54B73A2BF550997AD628B",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 23910,
+      "source_path": "workspace/graphics/english_assets/raw/pic/23910.p56",
+      "source_sha256": "D23328C6B683D266108E1E2DC048F8B6F4CBB174B40104BF9F1C86F46F332644",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/23910/cel_000.png",
+      "translation_sha256": "BE695D399CAAE79114E2EA87F7B32BD5B2D1C966C1BC88ABD2C3376A4FB28F67",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 23920,
+      "source_path": "workspace/graphics/english_assets/raw/pic/23920.p56",
+      "source_sha256": "842D0E6F9D5922F6EB0307F5D520BA8B7175799DED84031EC1B17ABA5A30DC49",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/23920/cel_000.png",
+      "translation_sha256": "B56E44A8F2EDE699BB2C59ACED982B9F596176B2D589802286EE2BAB8065333C",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 23930,
+      "source_path": "workspace/graphics/english_assets/raw/pic/23930.p56",
+      "source_sha256": "7BBDEAA5D433B266F27B213EEB0E7F89DC96E91C718D50EACDEB4CED4BA03DFE",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/23930/cel_000.png",
+      "translation_sha256": "490598DAFC74940D667284E87466719ADE49790CFE3BFBE4FA22322F6C168778",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 23940,
+      "source_path": "workspace/graphics/english_assets/raw/pic/23940.p56",
+      "source_sha256": "ACA248B59735CD24D2E5B39A0567CCCFC8BB8C0CFABC450B3FD4D856C86E492D",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/23940/cel_000.png",
+      "translation_sha256": "5F106C6D3AA07E3D998597D99F8F01199207E1F703DE35C874DBADDBD3083437",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 23950,
+      "source_path": "workspace/graphics/english_assets/raw/pic/23950.p56",
+      "source_sha256": "E36143587E3A459780E0AE51EE5A8756275C2A40B6FF3BEC7C9271D6893BC9D5",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/23950/cel_000.png",
+      "translation_sha256": "D2F6F8EACE3EC50282B8AAEEC96AB649EFDE83B2C057CBE34D82634CE2A62C7E",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 23960,
+      "source_path": "workspace/graphics/english_assets/raw/pic/23960.p56",
+      "source_sha256": "229278D9133A514AD6B71FA7AE0409C1D7051DB496B6D5BE0F791EA19239B8C5",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/23960/cel_000.png",
+      "translation_sha256": "5281D3DD0E5206377AED949039D454A809C806E924D5E53EA3CBD43997406E4F",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 24502,
+      "source_path": "workspace/graphics/english_assets/raw/pic/24502.p56",
+      "source_sha256": "E342D21680FEFA909C32857576DBB2B41B9F89DD162F4563257A555C98A4CC10",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/24502/cel_000.png",
+      "translation_sha256": "8BB2E0225DF515FBAFC8753ED991130578C0F34E566C3B9A779EC90594FF0C80",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 24503,
+      "source_path": "workspace/graphics/english_assets/raw/pic/24503.p56",
+      "source_sha256": "576F8C71E7E5E6B12CF02716836D9A35DA92224D5BCE06CE8502AE755C945797",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/24503/cel_000.png",
+      "translation_sha256": "C091E4A16B711D3BA68AA1876558526C8DDD4B8E76E8889CB3125C1DE1B98A76",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 24504,
+      "source_path": "workspace/graphics/english_assets/raw/pic/24504.p56",
+      "source_sha256": "F21803ABA8CCE76C23ACC44C2B986A5E4FA49F18E46099D838023A9CAD5540DF",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/24504/cel_000.png",
+      "translation_sha256": "68C7CC8FA77060680AC2DFB9E99D41C153F2788C4D5F9CF93CB0C2B1432D2D18",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 24800,
+      "source_path": "workspace/graphics/english_assets/raw/pic/24800.p56",
+      "source_sha256": "9EDAC26EE6C09CA61920E2481B5387993E28672752D7F6FF3BA5B7BA5E9D8D47",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/24800/cel_000.png",
+      "translation_sha256": "4BEC290584085E5F14E70FA3CB07D12B1C6458A00361D9002D15E524112C0B8E",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 24810,
+      "source_path": "workspace/graphics/english_assets/raw/pic/24810.p56",
+      "source_sha256": "6C23B608B3DBC8CA284A24B3C1758BF56A5E4F9964FF566738CCA512ED65EF3E",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/24810/cel_000.png",
+      "translation_sha256": "2A49B4DB2E9CA151F7676A576A105F75E1FB6A47F3CD9C3590E5622047971DB3",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 24820,
+      "source_path": "workspace/graphics/english_assets/raw/pic/24820.p56",
+      "source_sha256": "D980E02E0260DFD2E3F09567D6F95B50958FE7127C28C6EE394A9AA5CF9BEC6D",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/24820/cel_000.png",
+      "translation_sha256": "87A4BAE18D2FD687DD5CCB940E110F21A825D4F268D1A355331FDB028FFA2A68",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 24830,
+      "source_path": "workspace/graphics/english_assets/raw/pic/24830.p56",
+      "source_sha256": "1D1123D6585B3DEDA3B7B9B47BE921826096999010E885D528543346769865DB",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/24830/cel_000.png",
+      "translation_sha256": "C3BB4AE57BD882D2C6AADC6D8C3BE24AC1C8A2D3F58BEA9BA70461DE954D64D1",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 24840,
+      "source_path": "workspace/graphics/english_assets/raw/pic/24840.p56",
+      "source_sha256": "DE6FCD132C38D104E7527911B0B5497BA75B887DE4701AD0C1E2FDC0ABA697BA",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/24840/cel_000.png",
+      "translation_sha256": "F450B98E947A808F725786AA8FC3DE79D04143D44A625813188E4CEA4AD885D1",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 29042,
+      "source_path": "workspace/graphics/english_assets/raw/pic/29042.p56",
+      "source_sha256": "F28B4D81946AC84D8809E85CA0BDDA9996BF9F1B5583E613FAEDEE412E1741FB",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/29042/cel_000.png",
+      "translation_sha256": "5219D27D98B464B3A969C00A3EE590F711656F5AC25510AA1D0EEEC6F9878E62",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 29043,
+      "source_path": "workspace/graphics/english_assets/raw/pic/29043.p56",
+      "source_sha256": "19C396C9EA065DFEE52B84054B8F7334A69BE9D9BC08636AAEB98A92F59E4722",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/29043/cel_000.png",
+      "translation_sha256": "C6E337290982F11404C570EE9DEBB712A238F45908C7F5468A8952E63D8B8CFF",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 29800,
+      "source_path": "workspace/graphics/english_assets/raw/pic/29800.p56",
+      "source_sha256": "AC9901D52B94845880652C241EB976AD91B09F77B505DD5C6DB4C8AD49FC4DC2",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/29800/cel_000.png",
+      "translation_sha256": "0481BAD8CA43058C82DEC3ACD4EBBD18520FF890172E7BD3CD009AF9BA698135",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 29810,
+      "source_path": "workspace/graphics/english_assets/raw/pic/29810.p56",
+      "source_sha256": "F64A29786911DEFE5D2048134EF50CA3F57E525CF16EF3F76229240E1547C79E",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/29810/cel_000.png",
+      "translation_sha256": "B04764908D32E1A7C9AC1F8549BF58A5F2CFBBA67433BBC060FACA3A3F781469",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 29820,
+      "source_path": "workspace/graphics/english_assets/raw/pic/29820.p56",
+      "source_sha256": "BAE9F0802CA0B2ECAB57B6F9A415A1B8089681BD6A2183B275980B95812E05DE",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/29820/cel_000.png",
+      "translation_sha256": "F5F949B1AC724E91BC3DBAF9D2F10CDA5FCECBAD1FD7925181F8B11C486DC8FE",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 29830,
+      "source_path": "workspace/graphics/english_assets/raw/pic/29830.p56",
+      "source_sha256": "8E8D84479834CFECB4B8BF68A1EB0BAE9367482D385396F81FD49FE07E1CA8EE",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/29830/cel_000.png",
+      "translation_sha256": "3A638B5DBE199E33EA7FF1F861A01CA6DFB3305EC3976ED400166F897B68B60A",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 31800,
+      "source_path": "workspace/graphics/english_assets/raw/pic/31800.p56",
+      "source_sha256": "30CB4585F346F4DAC84A2A6C7D3759EBF760CDE143B64C30FC19DB61B3541472",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/31800/cel_000.png",
+      "translation_sha256": "04A80A1F10DCB023C485D2E09EAAC43DFC7F51580471B83761C00D4F2519D1DE",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 32800,
+      "source_path": "workspace/graphics/english_assets/raw/pic/32800.p56",
+      "source_sha256": "5D6FD0FEA8BC5776DCB87FB5AA348259F6200258BD00D9F9C352A2A5BF465A7F",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/32800/cel_000.png",
+      "translation_sha256": "24DFB9B85618DF9193639268ACD8EC93BADDEA98B0AEE55FCCD720F8E443343E",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 32810,
+      "source_path": "workspace/graphics/english_assets/raw/pic/32810.p56",
+      "source_sha256": "4E339E1F55D8DC686EDD7CBB2EA351AA9D0626A02968960D5061F942C7BB3890",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/32810/cel_000.png",
+      "translation_sha256": "638AC6228907BA14BBEAE8557BD537237BBA23B1626295A248B35F76B96F5FCB",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 35154,
+      "source_path": "workspace/graphics/english_assets/raw/pic/35154.p56",
+      "source_sha256": "E439E2AB49DD543C9AADE52F4D6C83F9093911804D1668F5298F1402A23AE552",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/35154/cel_000.png",
+      "translation_sha256": "A4D944696780312058C625E9D56CDE11353C00A18AC8FFA41294412A122C6C48",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 37252,
+      "source_path": "workspace/graphics/english_assets/raw/pic/37252.p56",
+      "source_sha256": "575E6DC3158D72A463AA87AB1C3281A3652BA180DCCC4FF5F307DE6D128B24F9",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/37252/cel_000.png",
+      "translation_sha256": "EFC43404F17D3CD929A7445E224C9E75C5D210B8DD4F5C56A60235DC3C77B30B",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 39311,
+      "source_path": "workspace/graphics/english_assets/raw/pic/39311.p56",
+      "source_sha256": "C5CF903AF543A2928A521FE25E82F4C7F1A87D14E605A732E09A651C7E83540A",
+      "source_dimensions": [
+        528,
+        345
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/39311/cel_000.png",
+      "translation_sha256": "B8A93C1F648C230D469875519A0A1A1E5DEAECE8ACE8B19B7C42D501D7BFE4F9",
+      "translation_dimensions": [
+        528,
+        345
+      ]
+    },
+    {
+      "resource_number": 51234,
+      "source_path": "workspace/graphics/english_assets/raw/pic/51234.p56",
+      "source_sha256": "583CB03006DEAFD8552A7DB6A080DC1CDAF540BD5B2F214B7B4968E382C91291",
+      "source_dimensions": [
+        604,
+        480
+      ],
+      "translation_path": "workspace/graphics/english_assets/png/pic/51234/cel_000.png",
+      "translation_sha256": "E3A4A0F69F1BCD939F6E02097CA2BA19F1F2DE515A8E89FDE1C2F6BFD2CC0A00",
+      "translation_dimensions": [
+        604,
+        480
+      ]
+    }
+  ]
+}

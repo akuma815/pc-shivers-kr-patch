@@ -1,0 +1,8 @@
+{
+  "name": "shivers1-scummvm-audio-subtitle-poc",
+  "version-string": "015",
+  "builtin-baseline": "61a6d90a8cecbbc4b2c926219e7f25e957ef7dbc",
+  "dependencies": [
+    "sdl2"
+  ]
+}

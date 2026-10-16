@@ -1,0 +1,9 @@
+{
+  "name": "shivers1-scummvm-full-subtitles",
+  "version-string": "017",
+  "builtin-baseline": "61a6d90a8cecbbc4b2c926219e7f25e957ef7dbc",
+  "dependencies": [
+    "freetype",
+    "sdl2"
+  ]
+}

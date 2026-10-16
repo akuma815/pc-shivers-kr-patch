@@ -1,0 +1,636 @@
+{
+  "date": "2026-10-16",
+  "project": "쉬버스",
+  "files": [
+    {
+      "path": "docs/HANDOFF_2026-08-30.md",
+      "source": "docs/HANDOFF_2026-08-30.md",
+      "bytes": 221823,
+      "sha256": "b2f279596928f7bcd46291ebdf11d1e04ffcf7d94d25721623c7818e726bbb34"
+    },
+    {
+      "path": "docs/SOURCE_MANIFEST.md",
+      "source": "docs/SOURCE_MANIFEST.md",
+      "bytes": 993,
+      "sha256": "9240e0e15ac4db15fb42aaad25a25ebb0857c3bb55c5e011d798c42f6daaccd9"
+    },
+    {
+      "path": "workspace/audio/narration_source_en/README.md",
+      "source": "workspace/audio/narration_source_en/README.md",
+      "bytes": 1065,
+      "sha256": "b2a6c3a79bc3ab9112d9abbe107e2e6bc23d9aaa8c0efc586ef9dad55e9ae59b"
+    },
+    {
+      "path": "workspace/audio/narration_source_en/manifest.csv",
+      "source": "workspace/audio/narration_source_en/manifest.csv",
+      "bytes": 29541,
+      "sha256": "a348b14446766934dd536c9f8e22f3e39a922bdaa271ea9c3e2129122bf08dd1"
+    },
+    {
+      "path": "workspace/fonts/poc_ga_15x17_font7.txt",
+      "source": "workspace/fonts/poc_ga_15x17_font7.txt",
+      "bytes": 272,
+      "sha256": "e8ec3c5d83f7658d77423e5c7e8593d409af7f2ffe168426aae74d540158af6c"
+    },
+    {
+      "path": "workspace/fonts/poc_ga_16x16.txt",
+      "source": "workspace/fonts/poc_ga_16x16.txt",
+      "bytes": 272,
+      "sha256": "6fb30b59a094fdbdd01d666a468e0bb7b849c74469e1e6de7c68038116abec7d"
+    },
+    {
+      "path": "workspace/fonts/poc_ga_9x12_font37.txt",
+      "source": "workspace/fonts/poc_ga_9x12_font37.txt",
+      "bytes": 120,
+      "sha256": "a3b4657361d2f699c0a9dc63b0a735b89794df12cac84a51a510bd07dd8e9f7d"
+    },
+    {
+      "path": "workspace/graphics/graphics_translation_queue_20260901.csv",
+      "source": "workspace/graphics/graphics_translation_queue_20260901.csv",
+      "bytes": 261440,
+      "sha256": "66e0dc95e9ccb16d863a6db444d724800b10d650a5f02f11c8046c18f9f787e1"
+    },
+    {
+      "path": "workspace/graphics/translated_pic_all_manual_20260903.json",
+      "source": "workspace/graphics/translated_pic_all_manual_20260903.json",
+      "bytes": 79398,
+      "sha256": "0a0a9be14c1e7303db0061cf72756643edaf1f04cb87da5eaa42e99007954e4b"
+    },
+    {
+      "path": "workspace/graphics/translated_pic_batch_01030.json",
+      "source": "workspace/graphics/translated_pic_batch_01030.json",
+      "bytes": 7512,
+      "sha256": "9d1989552e59b9e70cf3c0eb2950fbe0ae5fa2a5c0b1c5297c5ad6b3139005cc"
+    },
+    {
+      "path": "workspace/graphics/translated_pic_batch_03113.json",
+      "source": "workspace/graphics/translated_pic_batch_03113.json",
+      "bytes": 9015,
+      "sha256": "62f54a3108f8a78fae6937b1f356226af648e68d21360e8535d3ba025ae6ad91"
+    },
+    {
+      "path": "workspace/graphics/journal_missing_20260905/manifest.csv",
+      "source": "workspace/graphics/journal_missing_20260905/manifest.csv",
+      "bytes": 1956,
+      "sha256": "cded4590de5a7f4bff9ea3d51c83510071448a3e0ceb5174a8e48a075f85360e"
+    },
+    {
+      "path": "workspace/installer/LICENSE.txt",
+      "source": "workspace/installer/LICENSE.txt",
+      "bytes": 1303,
+      "sha256": "f39b8fdcd0022ab447c3b4683873cefd8fae52cdfa2ae900b1e43f4302543db3"
+    },
+    {
+      "path": "workspace/installer/Launcher.cs",
+      "source": "workspace/installer/Launcher.cs",
+      "bytes": 4166,
+      "sha256": "f9f6b7859cf26472971cd4d40f337f6371e73116c903f251da36e585e16b42a5"
+    },
+    {
+      "path": "workspace/installer/NOTICE.txt",
+      "source": "workspace/installer/NOTICE.txt",
+      "bytes": 1918,
+      "sha256": "f3edf0a7697ff293ef0d1e0ac8d0319c448bdfb23b68f2dc593533b90ba6fc47"
+    },
+    {
+      "path": "workspace/installer/Patcher.cs",
+      "source": "workspace/installer/Patcher.cs",
+      "bytes": 19429,
+      "sha256": "2ff1a7cf8b85c5a44a7e9d1fbed9b23427c4d6ed752594a3152638cc63cffbf0"
+    },
+    {
+      "path": "workspace/installer/SOURCE_BUILD.md",
+      "source": "workspace/installer/SOURCE_BUILD.md",
+      "bytes": 3859,
+      "sha256": "a3f37d15a08c53bd4997cc46632e4d016f1566a9480c85183271c2e63ff891a6"
+    },
+    {
+      "path": "workspace/installer/guide.txt",
+      "source": "workspace/installer/guide.txt",
+      "bytes": 2833,
+      "sha256": "106879144c2168de78e4758514aa168cdb3ddd686293829c78359721a46e5c30"
+    },
+    {
+      "path": "workspace/scripts/analyze_sci_fonts.py",
+      "source": "workspace/scripts/analyze_sci_fonts.py",
+      "bytes": 2527,
+      "sha256": "18f58af7efad3d73954ff2c61e9e87003a427d2e66878e0c224c946eb6e5a0a8"
+    },
+    {
+      "path": "workspace/scripts/audit_graphics_coverage_20260905.py",
+      "source": "workspace/scripts/audit_graphics_coverage_20260905.py",
+      "bytes": 7222,
+      "sha256": "bb033c2fb283a57b7375a5564429b8827449feccd0160947dec899b4d38615bb"
+    },
+    {
+      "path": "workspace/scripts/build_intro_korean_draft_poc.py",
+      "source": "workspace/scripts/build_intro_korean_draft_poc.py",
+      "bytes": 18431,
+      "sha256": "9bcd65663c10db58a066e781d28d3e83d7e1c843d9daa12e32950241869652a5"
+    },
+    {
+      "path": "workspace/scripts/build_scummvm_audio_subtitle_runner.ps1",
+      "source": "workspace/scripts/build_scummvm_audio_subtitle_runner.ps1",
+      "bytes": 7037,
+      "sha256": "fc25a1e27f23d44db43fa4080189fc1f17d86d2c686ffb8b76238aa90e8c29ec"
+    },
+    {
+      "path": "workspace/scripts/build_scummvm_full_subtitle_layout_runner.ps1",
+      "source": "workspace/scripts/build_scummvm_full_subtitle_layout_runner.ps1",
+      "bytes": 7723,
+      "sha256": "42f017d5ea2f59a9f29f3dd4bc9a9acc88b17b7d802d5fce944d31f621278f05"
+    },
+    {
+      "path": "workspace/scripts/build_scummvm_full_subtitle_runner.ps1",
+      "source": "workspace/scripts/build_scummvm_full_subtitle_runner.ps1",
+      "bytes": 7471,
+      "sha256": "10984901d791f6a7354e905103efdbf90284499a34d3b3001670c89f4a186e01"
+    },
+    {
+      "path": "workspace/scripts/build_scummvm_korean_poc.py",
+      "source": "workspace/scripts/build_scummvm_korean_poc.py",
+      "bytes": 14656,
+      "sha256": "da4c02a723dc1c7ef10386f53d81f381108885bff3c32fd892b306ce24ed9275"
+    },
+    {
+      "path": "workspace/scripts/build_scummvm_shivers_ko_runner.py",
+      "source": "workspace/scripts/build_scummvm_shivers_ko_runner.py",
+      "bytes": 4217,
+      "sha256": "b9258d4790a4141f650cf01e1a89904bd21900ff355000d538a37b3efc03574a"
+    },
+    {
+      "path": "workspace/scripts/build_shivers_all_assets.py",
+      "source": "workspace/scripts/build_shivers_all_assets.py",
+      "bytes": 14754,
+      "sha256": "5ef926b939128a8e2ebfc3978d39c7040e278f046042d78e8351adbe8f04cf0c"
+    },
+    {
+      "path": "workspace/scripts/build_shivers_audio_subtitle_poc.py",
+      "source": "workspace/scripts/build_shivers_audio_subtitle_poc.py",
+      "bytes": 6463,
+      "sha256": "6ea9d3fe37f3c7a1d69899d1b0dbb7df5fcf8899b97d9dfc2a48659e110715db"
+    },
+    {
+      "path": "workspace/scripts/build_shivers_distribution.py",
+      "source": "workspace/scripts/build_shivers_distribution.py",
+      "bytes": 11435,
+      "sha256": "6ba1acc7b7c800fd2afb5696b070e94d72354f060f6a5d91ef42ab62162f4b16"
+    },
+    {
+      "path": "workspace/scripts/build_shivers_full_subtitles_poc.py",
+      "source": "workspace/scripts/build_shivers_full_subtitles_poc.py",
+      "bytes": 17135,
+      "sha256": "35dd80f010c722aa072de484aee41ab6bc59693118381e0637f068df49aa1ac0"
+    },
+    {
+      "path": "workspace/scripts/build_shivers_intro_subtitles_forced.py",
+      "source": "workspace/scripts/build_shivers_intro_subtitles_forced.py",
+      "bytes": 4968,
+      "sha256": "b53182e406692d9fa51777092155caee70420f866caa736ac910ff0927ff9dc4"
+    },
+    {
+      "path": "workspace/scripts/build_shivers_name_font_poc.py",
+      "source": "workspace/scripts/build_shivers_name_font_poc.py",
+      "bytes": 8003,
+      "sha256": "54c99f80223db761cc50a7d4d9092aa7b9e3ae9184150a40b5b13f94e4cc0d0e"
+    },
+    {
+      "path": "workspace/scripts/build_shivers_text_on_poc.py",
+      "source": "workspace/scripts/build_shivers_text_on_poc.py",
+      "bytes": 4718,
+      "sha256": "cbdbde7c66c9427ff0b64b55b83a51493195f3a7c00fcce42acc67a80423d732"
+    },
+    {
+      "path": "workspace/scripts/build_translated_pic_batch_poc.py",
+      "source": "workspace/scripts/build_translated_pic_batch_poc.py",
+      "bytes": 12629,
+      "sha256": "39ef164d88bdcd0e0c4f85936c5794cd1c8c97f37944a5608a548d84c6064c75"
+    },
+    {
+      "path": "workspace/scripts/check_movie_subtitle_layout.py",
+      "source": "workspace/scripts/check_movie_subtitle_layout.py",
+      "bytes": 4430,
+      "sha256": "1625714591452b226c60555080c4edfff9803a0dc1802db6dd8941c009d0c9a4"
+    },
+    {
+      "path": "workspace/scripts/cleanup_shivers_installer_rc1.ps1",
+      "source": "workspace/scripts/cleanup_shivers_installer_rc1.ps1",
+      "bytes": 2651,
+      "sha256": "17d6cbf6c450c8fc7906ae664e4d517c34c04cfc08d95673ac77ae214910cec3"
+    },
+    {
+      "path": "workspace/scripts/cleanup_superseded_pocs.ps1",
+      "source": "workspace/scripts/cleanup_superseded_pocs.ps1",
+      "bytes": 4530,
+      "sha256": "1c1b463c2cd98bf391b058be885c03ccb4eb6221f52b7602372459a98e948a08"
+    },
+    {
+      "path": "workspace/scripts/cleanup_test_builds_20260905.ps1",
+      "source": "workspace/scripts/cleanup_test_builds_20260905.ps1",
+      "bytes": 3916,
+      "sha256": "cfc7f55f64748a541e7b69a73dfdb598b6c86930406ddd0174795a414d70d420"
+    },
+    {
+      "path": "workspace/scripts/compose_masked_graphic_poc.ps1",
+      "source": "workspace/scripts/compose_masked_graphic_poc.ps1",
+      "bytes": 4316,
+      "sha256": "e4318fc29c61bf19462122eff8c41f9ce2aa498e3ff7f935570c9bc9ceb05e94"
+    },
+    {
+      "path": "workspace/scripts/export_english_graphics.py",
+      "source": "workspace/scripts/export_english_graphics.py",
+      "bytes": 7137,
+      "sha256": "75e1a46f0edc8398cede0fe68f5fd709c3b18969f2b6f7920f43dca8a6864502"
+    },
+    {
+      "path": "workspace/scripts/export_movie_subtitles_csv.py",
+      "source": "workspace/scripts/export_movie_subtitles_csv.py",
+      "bytes": 12856,
+      "sha256": "72be87cb370bbf5ffef7f1042884e97edb3eda42c0bbc11de10af1d858631110"
+    },
+    {
+      "path": "workspace/scripts/extract_heap_strings.py",
+      "source": "workspace/scripts/extract_heap_strings.py",
+      "bytes": 4174,
+      "sha256": "05e3ba124e2460d42161949ff8fb9b37b346745c924b0453cb7c621b435b4a4d"
+    },
+    {
+      "path": "workspace/scripts/extract_intro_subtitles.py",
+      "source": "workspace/scripts/extract_intro_subtitles.py",
+      "bytes": 5758,
+      "sha256": "25b06955b802176428206a450fd66ae5447937de0cd16db02192f22462b0d7f6"
+    },
+    {
+      "path": "workspace/scripts/extract_narration_audio.py",
+      "source": "workspace/scripts/extract_narration_audio.py",
+      "bytes": 15595,
+      "sha256": "039c95d53243c21f2a5aada2a5872aee3a93d4591870fb28735eeb7d57d6247c"
+    },
+    {
+      "path": "workspace/scripts/extract_sci21_graphics.py",
+      "source": "workspace/scripts/extract_sci21_graphics.py",
+      "bytes": 14902,
+      "sha256": "448cea833ad5bc69d34ba72feccaa8e1e341620cc4b205a85726a46b9fc72f30"
+    },
+    {
+      "path": "workspace/scripts/extract_sci21_resources.py",
+      "source": "workspace/scripts/extract_sci21_resources.py",
+      "bytes": 5716,
+      "sha256": "bfd0e0a1cf4ce464970661ae7aae82f5129c40a366138911fb9fb3aff0d065d3"
+    },
+    {
+      "path": "workspace/scripts/finalize_subtitle_launch_fix_024.py",
+      "source": "workspace/scripts/finalize_subtitle_launch_fix_024.py",
+      "bytes": 3532,
+      "sha256": "24c2a3114deeba7d4d6ea8bf82943819c8061fa88b499b8b53aae8cf9e5b768f"
+    },
+    {
+      "path": "workspace/scripts/finalize_user_graphics_restore_20260903.ps1",
+      "source": "workspace/scripts/finalize_user_graphics_restore_20260903.ps1",
+      "bytes": 6596,
+      "sha256": "2dc977b3674af10061ac950e9d9024a750d4bed18ac677235e6ba0ecfedc7c5c"
+    },
+    {
+      "path": "workspace/scripts/freeze_manual_pic_batch.py",
+      "source": "workspace/scripts/freeze_manual_pic_batch.py",
+      "bytes": 9790,
+      "sha256": "da5b18b323954083d78b96f63a7abbcfeb547890a50552a0086858bb815fa856"
+    },
+    {
+      "path": "workspace/scripts/inventory_shivers.py",
+      "source": "workspace/scripts/inventory_shivers.py",
+      "bytes": 6924,
+      "sha256": "44396823c02f5d03201901e350d3f16aa5d22ea1cf5b8772418b678a44c13a90"
+    },
+    {
+      "path": "workspace/scripts/make_graphics_contact_sheets.py",
+      "source": "workspace/scripts/make_graphics_contact_sheets.py",
+      "bytes": 3921,
+      "sha256": "736d48b573abf6528c7109931ccb5185c4107901f08da6e44449e0442c33fa81"
+    },
+    {
+      "path": "workspace/scripts/ocr_audit_contact_sheets_20260905.ps1",
+      "source": "workspace/scripts/ocr_audit_contact_sheets_20260905.ps1",
+      "bytes": 3041,
+      "sha256": "3e6cbfbb845770b8246817ab5ff7bc18b89f191fe551183c8091c5eec9ab433b"
+    },
+    {
+      "path": "workspace/scripts/ocr_png_folder.ps1",
+      "source": "workspace/scripts/ocr_png_folder.ps1",
+      "bytes": 3655,
+      "sha256": "ea7cf3db41be7778a9990a55d679e1cd266ff4239064ebfc114b6a6633691226"
+    },
+    {
+      "path": "workspace/scripts/prepare_full_023_20260905.py",
+      "source": "workspace/scripts/prepare_full_023_20260905.py",
+      "bytes": 3595,
+      "sha256": "ea12963a0f3875c110dd7e7f42a3b2b4bd15012b0eaeb584a030e75e58c575e8"
+    },
+    {
+      "path": "workspace/scripts/prepare_full_024_20260905.py",
+      "source": "workspace/scripts/prepare_full_024_20260905.py",
+      "bytes": 6619,
+      "sha256": "dcab50fbb3562f6916cf3a42d3bc9b755ea1adebc11ed8eeaf33b91dc06d3aad"
+    },
+    {
+      "path": "workspace/scripts/preview_shivers_installer.ps1",
+      "source": "workspace/scripts/preview_shivers_installer.ps1",
+      "bytes": 1126,
+      "sha256": "9e1615f6e344069a1d23249788aab572c4a950de2554cff5d79bedf83db2065c"
+    },
+    {
+      "path": "workspace/scripts/probe_malgun_025.ps1",
+      "source": "workspace/scripts/probe_malgun_025.ps1",
+      "bytes": 4807,
+      "sha256": "b04e132ce264e3bbd4f39c3665d0e3216f3e4a27f3434c60e34ae670a09f46fc"
+    },
+    {
+      "path": "workspace/scripts/probe_subtitle_launch_024.ps1",
+      "source": "workspace/scripts/probe_subtitle_launch_024.ps1",
+      "bytes": 3925,
+      "sha256": "5ae5b3dd452737bdacd3f0be1e2a1a1d50aebf60d5b6b5b1361f238f62ba3461"
+    },
+    {
+      "path": "workspace/scripts/register_journal_supplement_20260905.py",
+      "source": "workspace/scripts/register_journal_supplement_20260905.py",
+      "bytes": 3248,
+      "sha256": "5be4f79126e863c96042dbd77887077327effdbb6b889bf14321cf5ac77dc421"
+    },
+    {
+      "path": "workspace/scripts/restore_addressbook_views_20260905.py",
+      "source": "workspace/scripts/restore_addressbook_views_20260905.py",
+      "bytes": 4814,
+      "sha256": "a8d7e7819eae386ec4098aec28bfd2e8e73263a6b3620f18fceeb1f5383b59a7"
+    },
+    {
+      "path": "workspace/scripts/restore_journal_original_20260906.py",
+      "source": "workspace/scripts/restore_journal_original_20260906.py",
+      "bytes": 3749,
+      "sha256": "2128fd213a78d29c31c8bc7275ae15a3c84147b2a7c4cae4578f8920e7794dae"
+    },
+    {
+      "path": "workspace/scripts/restore_user_graphics_except_titles_20260903.ps1",
+      "source": "workspace/scripts/restore_user_graphics_except_titles_20260903.ps1",
+      "bytes": 9451,
+      "sha256": "992a3ead1f82d8cd74ac1ae6e16a38d1c42cd975aa9c14c94738e1bf33843c82"
+    },
+    {
+      "path": "workspace/scripts/review_graphics_audit_20260905.py",
+      "source": "workspace/scripts/review_graphics_audit_20260905.py",
+      "bytes": 4591,
+      "sha256": "a153ecf80b61bc83b7cff29a6eadfa866b26debf902077ae0ade5ab8aa8ecae4"
+    },
+    {
+      "path": "workspace/scripts/run_scummvm_baseline.ps1",
+      "source": "workspace/scripts/run_scummvm_baseline.ps1",
+      "bytes": 14959,
+      "sha256": "af67f550dff24d76161c05cef1428f57843af06e73b01202900b374d225c5fa7"
+    },
+    {
+      "path": "workspace/scripts/smoke_installed_shivers.ps1",
+      "source": "workspace/scripts/smoke_installed_shivers.ps1",
+      "bytes": 2150,
+      "sha256": "0a4379adc9c488bffeb85d1c05d8295b9af78730d00090f92244626f3d896fb4"
+    },
+    {
+      "path": "workspace/scripts/test_shivers_installer.py",
+      "source": "workspace/scripts/test_shivers_installer.py",
+      "bytes": 6570,
+      "sha256": "b9154454906799b6d07c5daaf9db4ec32cae7e878133bf865bfe012744e10353"
+    },
+    {
+      "path": "workspace/scripts/verify_audio_layout_026.py",
+      "source": "workspace/scripts/verify_audio_layout_026.py",
+      "bytes": 5059,
+      "sha256": "c61f9a1a9637f719c526679f0d373f521c66bdac8608cc5295ae8b46217e244c"
+    },
+    {
+      "path": "workspace/scripts/verify_cleanup_full_024_20260905.ps1",
+      "source": "workspace/scripts/verify_cleanup_full_024_20260905.ps1",
+      "bytes": 5607,
+      "sha256": "89b160b62b4102c6bc8c24078978a4889de13fa72013cd627d38c032a4d72729"
+    },
+    {
+      "path": "workspace/scripts/verify_malgun_poc_025.py",
+      "source": "workspace/scripts/verify_malgun_poc_025.py",
+      "bytes": 4181,
+      "sha256": "0eb6d378d01c06998bd1cb4f338420f24ae446d64954d5c17ccb7230055f6cc5"
+    },
+    {
+      "path": "workspace/scripts/verify_movie_center_027.py",
+      "source": "workspace/scripts/verify_movie_center_027.py",
+      "bytes": 3812,
+      "sha256": "771ab6651bc2d194d5ae974a8c4ec5f2c14af3b894c622e627a080049ace5f6f"
+    },
+    {
+      "path": "workspace/scripts/verify_shivers_distribution_delivery.py",
+      "source": "workspace/scripts/verify_shivers_distribution_delivery.py",
+      "bytes": 3476,
+      "sha256": "ee571027816322902aa7c0839b6a4b60cd254c6ff5e2d6c8d765491c499dad5e"
+    },
+    {
+      "path": "workspace/scummvm_audio_subtitles/poc_015.json",
+      "source": "workspace/scummvm_audio_subtitles/poc_015.json",
+      "bytes": 708,
+      "sha256": "f2a58a27302b67cf1efb174481f4b72aabc8d2e2f155285656a2051738a8bfe3"
+    },
+    {
+      "path": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_audio_subtitles.patch",
+      "source": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_audio_subtitles.patch",
+      "bytes": 13254,
+      "sha256": "b598f76f3c76732ac68b7b61014340722a65c811c184b0daf6ae742f3c056eaf"
+    },
+    {
+      "path": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_full_subtitles.patch",
+      "source": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_full_subtitles.patch",
+      "bytes": 13374,
+      "sha256": "a363c4991ff2dc2355f09f6a018b55dcbfddf385513559e93923cd9cc364b8ab"
+    },
+    {
+      "path": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_full_subtitles_layout_019.patch",
+      "source": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_full_subtitles_layout_019.patch",
+      "bytes": 13373,
+      "sha256": "32cb2f7683c3340341bbe8cf94db3d5b0c8d8d4fcd438e2f3c5c0560a68cbc1d"
+    },
+    {
+      "path": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_full_subtitles_layout_021.patch",
+      "source": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_full_subtitles_layout_021.patch",
+      "bytes": 13374,
+      "sha256": "8b5e2a240301c49b7d0d52d58a624ed546d1b88f2088ba1c7439916760637a87"
+    },
+    {
+      "path": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_full_subtitles_layout_025.patch",
+      "source": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_full_subtitles_layout_025.patch",
+      "bytes": 13577,
+      "sha256": "745d3b7b5697c127f2752244a4fd190b6b6f0f2362ca92405cfbee4a3bd024a5"
+    },
+    {
+      "path": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_full_subtitles_layout_026.patch",
+      "source": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_full_subtitles_layout_026.patch",
+      "bytes": 13796,
+      "sha256": "d1b2544d31f11ad68d28c1a0d7314796cc46ba813ff2a0137b9b2cc69e769ff7"
+    },
+    {
+      "path": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_full_subtitles_layout_027.patch",
+      "source": "workspace/scummvm_audio_subtitles/scummvm_v2026.3.0_shivers_full_subtitles_layout_027.patch",
+      "bytes": 14076,
+      "sha256": "b87da0863082ef1451e933f24c9d9b60f253a1142065d25449ff8b5751d1595a"
+    },
+    {
+      "path": "workspace/scummvm_audio_subtitles/vcpkg.json",
+      "source": "workspace/scummvm_audio_subtitles/vcpkg.json",
+      "bytes": 181,
+      "sha256": "0aca24e6f63c81e2dfc78ff390e9f1358c672df7417e6007f700587dd5f21c13"
+    },
+    {
+      "path": "workspace/scummvm_full_subtitles/vcpkg.json",
+      "source": "workspace/scummvm_full_subtitles/vcpkg.json",
+      "bytes": 193,
+      "sha256": "e63bc737b52aba055c5d7ac8bc52f11295e8f1ead3277bdcf59d9a120bff8b06"
+    },
+    {
+      "path": "workspace/translation/intro_movie_1002.json",
+      "source": "workspace/translation/intro_movie_1002.json",
+      "bytes": 12921,
+      "sha256": "5ff10d8ecb80af4f7c40ded6cf5f8d8ee4e22656d5904078824cd54328b8b555"
+    },
+    {
+      "path": "workspace/translation/movie_subtitles.csv",
+      "source": "workspace/translation/movie_subtitles.csv",
+      "bytes": 41865,
+      "sha256": "f3662a1c69ca831ef2b950c2a5691f8fb80a8a481d751ffd53f5df77ef502463"
+    },
+    {
+      "path": "workspace/translation/shivers_1_audio_narration_ko.csv",
+      "source": "workspace/translation/shivers_1_audio_narration_ko.csv",
+      "bytes": 41940,
+      "sha256": "15726e373dec65ef8f4d319f2f85d7e76f3e947ac92438789cc5ce2728b466e2"
+    },
+    {
+      "path": "workspace/translation/shivers_1_audio_narration_ko_translated.csv",
+      "source": "workspace/translation/shivers_1_audio_narration_ko_translated.csv",
+      "bytes": 55103,
+      "sha256": "e5b626f9a526b5471dd1c173d94519dc1bc25aaccf651489a946c873e0371421"
+    },
+    {
+      "path": "workspace/translation/shivers_1_movie_subtitles_ko.csv",
+      "source": "workspace/translation/shivers_1_movie_subtitles_ko.csv",
+      "bytes": 43524,
+      "sha256": "03aeb391c78b47df957aa01d52642468e7da4e5a4e41a3c44a8807c78210c7f9"
+    },
+    {
+      "path": "engine/sources/SOURCE_BUILD.md",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/sources/SOURCE_BUILD.md",
+      "bytes": 3859,
+      "sha256": "a3f37d15a08c53bd4997cc46632e4d016f1566a9480c85183271c2e63ff891a6"
+    },
+    {
+      "path": "engine/sources/build_scummvm_full_subtitle_layout_runner.ps1",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/sources/build_scummvm_full_subtitle_layout_runner.ps1",
+      "bytes": 7709,
+      "sha256": "22c372d845bfca025a85174c92fa92c02fbc939eccdab810f9b43dbb7cfce028"
+    },
+    {
+      "path": "engine/sources/dependency-versions.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/sources/dependency-versions.txt",
+      "bytes": 3507,
+      "sha256": "9618fc2273f0f3bf2792cdffe5b5e78c44ed1f53cb409b83c771b60853ba38c6"
+    },
+    {
+      "path": "engine/sources/shivers-malgun.patch",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/sources/shivers-malgun.patch",
+      "bytes": 13577,
+      "sha256": "745d3b7b5697c127f2752244a4fd190b6b6f0f2362ca92405cfbee4a3bd024a5"
+    },
+    {
+      "path": "engine/sources/vcpkg.json",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/sources/vcpkg.json",
+      "bytes": 193,
+      "sha256": "e63bc737b52aba055c5d7ac8bc52f11295e8f1ead3277bdcf59d9a120bff8b06"
+    },
+    {
+      "path": "engine/licenses/BLAKE3-Apache.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/BLAKE3-Apache.txt",
+      "bytes": 11361,
+      "sha256": "00fcc7a934ddbc9ece2a7cc063ac788e284b703b1d705ccbba72d462aa97921e"
+    },
+    {
+      "path": "engine/licenses/BLAKE3-CC0.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/BLAKE3-CC0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "engine/licenses/Installer-MIT.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/Installer-MIT.txt",
+      "bytes": 1303,
+      "sha256": "f39b8fdcd0022ab447c3b4683873cefd8fae52cdfa2ae900b1e43f4302543db3"
+    },
+    {
+      "path": "engine/licenses/ScummVM-GPL-3.0.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/ScummVM-GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "engine/licenses/brotli.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/brotli.txt",
+      "bytes": 1084,
+      "sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94"
+    },
+    {
+      "path": "engine/licenses/bzip2.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/bzip2.txt",
+      "bytes": 1896,
+      "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3"
+    },
+    {
+      "path": "engine/licenses/freetype.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/freetype.txt",
+      "bytes": 27496,
+      "sha256": "cf82ed29473c1fd8e137fd34250f89eebf2bee9e126fa004286dd25495d5c654"
+    },
+    {
+      "path": "engine/licenses/libpng.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/libpng.txt",
+      "bytes": 5345,
+      "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526"
+    },
+    {
+      "path": "engine/licenses/sdl2.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/sdl2.txt",
+      "bytes": 884,
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+    },
+    {
+      "path": "engine/licenses/xdelta-3.2.0.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/xdelta-3.2.0.txt",
+      "bytes": 9156,
+      "sha256": "6cf63d87586c7c25c3ab8e62eef5c75bbaa982b0a6f9c00c59e2720255aac9ec"
+    },
+    {
+      "path": "engine/licenses/xz-0BSD.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/xz-0BSD.txt",
+      "bytes": 607,
+      "sha256": "0b01625d853911cd0e2e088dcfb743261034a091bb379246cb25a14cc4c74bf1"
+    },
+    {
+      "path": "engine/licenses/xz-COPYING.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/xz-COPYING.txt",
+      "bytes": 3119,
+      "sha256": "616a3ad264ce29b8f1cb97e53037b139d406899ca8d1f799651e17bfa09830b8"
+    },
+    {
+      "path": "engine/licenses/zlib.txt",
+      "source": "dist/Shivers_Korean_Patch_v1.0_RC1/licenses/zlib.txt",
+      "bytes": 1002,
+      "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2"
+    },
+    {
+      "path": "docs/PROJECT_NOTES.md",
+      "source": "README.md",
+      "bytes": 5045,
+      "sha256": "761d2ca35d1152e09f5e91ea702c595bc61b1fad8f0d5f9b5fb676e7238f8eaa"
+    }
+  ]
+}

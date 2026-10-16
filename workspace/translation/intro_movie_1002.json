@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "table_id": "shivers_intro_movie_1002",
+  "source": {
+    "script_number": 930,
+    "heap_path": "extracted/sci/heap/00930.hep",
+    "heap_size": 1728,
+    "heap_sha256": "9A45F316D43ED635D2C48F15D5C614D39E5EDB5925249671765A39C0668BA39E",
+    "encoding": "cp1252",
+    "runtime_evidence": "introMovie:init drawText calls at frames listed per entry"
+  },
+  "target": {
+    "encoding": "cp949",
+    "language": "ko",
+    "build_eligible": false,
+    "reason": "Draft translation and Korean runtime glyph path both require review"
+  },
+  "entries": [
+    {
+      "entry_id": 1,
+      "heap_offset": 90,
+      "raw_hex": "2054686973206461726520776173206B696E64206F6620796F7572206964656120796F75206B6E6F772C206275742049276D20676C61642049276D206D65206F7574206865726520616E64206E6F7420796F7520696E2074686572652E",
+      "source": " This dare was kind of your idea you know, but I'm glad I'm me out here and not you in there.",
+      "ko": "이 내기는 네가 낸 생각이었잖아. 그래도 안에 있는 게 내가 아니라 너라서 다행이야.",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 142,
+        "end_frame": 200
+      },
+      "slot": {
+        "source_byte_length": 93,
+        "ko_cp949_byte_length": 80,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 2,
+      "heap_offset": 184,
+      "raw_hex": "2049207468696E6B20492068656172642074686F73652073616D65206C6F76696E6720776F726473206265666F72652E204C696B65207468652074696D6520796F752067757973206461726564206D6520746F207370656E6420746865206E6967687420696E20746861742063656D65746172792E",
+      "source": " I think I heard those same loving words before. Like the time you guys dared me to spend the night in that cemetary.",
+      "ko": "그런 다정한 말은 전에도 들은 것 같은데. 너희가 공동묘지에서 하룻밤 보내라고 했을 때 말이야.",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 200,
+        "end_frame": 270
+      },
+      "slot": {
+        "source_byte_length": 117,
+        "ko_cp949_byte_length": 91,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 3,
+      "heap_offset": 302,
+      "raw_hex": "20596F75206B6E6F772C20696620796F752064696520696E20746865206D757365756D20746F6E696768742049276C6C206D616B65207375726520736865206769766573207468652065756C6F677920617420796F75722066756E6572616C2E",
+      "source": " You know, if you die in the museum tonight I'll make sure she gives the eulogy at your funeral.",
+      "ko": "오늘 밤 박물관에서 죽으면, 네 장례식 추도사는 꼭 얘한테 맡길게.",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 270,
+        "end_frame": 320
+      },
+      "slot": {
+        "source_byte_length": 96,
+        "ko_cp949_byte_length": 63,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 4,
+      "heap_offset": 399,
+      "raw_hex": "20576520776F756C642068617665206E65766572206D61646520796F75207370656E6420746865206E69676874206865726520696620796F752764206861646E2774206F662074616C6B65642061626F7574207468697320706C61636520736F206D7563682E",
+      "source": " We would have never made you spend the night here if you'd hadn't of talked about this place so much.",
+      "ko": "네가 이곳 이야기를 그렇게 많이 하지 않았으면 여기서 밤을 보내게 하진 않았을 거야.",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 320,
+        "end_frame": 360
+      },
+      "slot": {
+        "source_byte_length": 102,
+        "ko_cp949_byte_length": 81,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 5,
+      "heap_offset": 502,
+      "raw_hex": "20596561682C207765207468696E6B20796F75277665206265656E206B696E64612E2E2E77656C6C2C206F62736573736564207468696E6B696E6720796F7520776572652068656172696E6720766F6963657320616E6420737475666620636F6D696E672066726F6D20746865206D757365756D20616E6420616C6C2E2E2E746F6F20776569726420666F72206D6521",
+      "source": " Yeah, we think you've been kinda...well, obsessed thinking you were hearing voices and stuff coming from the museum and all...too weird for me!",
+      "ko": "그래. 박물관에서 목소리 같은 게 들린다며 좀... 뭐랄까, 집착했잖아. 난 너무 섬뜩해!",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 360,
+        "end_frame": 445
+      },
+      "slot": {
+        "source_byte_length": 144,
+        "ko_cp949_byte_length": 82,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 6,
+      "heap_offset": 647,
+      "raw_hex": "2048657920796F75206B6E6F772C206D6179626520746865792772652074686520766F69636573206F662074686F7365206B6964732077686F2064697361707065617265642031352079656172732061676F2E",
+      "source": " Hey you know, maybe they're the voices of those kids who disappeared 15 years ago.",
+      "ko": "있잖아, 어쩌면 15년 전에 사라진 아이들의 목소리일지도 몰라.",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 445,
+        "end_frame": 495
+      },
+      "slot": {
+        "source_byte_length": 83,
+        "ko_cp949_byte_length": 59,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 7,
+      "heap_offset": 731,
+      "raw_hex": "2052696768742C2074686520706F6C696365206E6576657220666F756E642074686520626F646965732E2E2E6F7220746865206B696C6C65722E",
+      "source": " Right, the police never found the bodies...or the killer.",
+      "ko": "맞아. 경찰은 시신도... 범인도 찾지 못했지.",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 495,
+        "end_frame": 530
+      },
+      "slot": {
+        "source_byte_length": 58,
+        "ko_cp949_byte_length": 42,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 8,
+      "heap_offset": 790,
+      "raw_hex": "20596561682C20616E64206D7920736973746572202D20796F75206B6E6F772C204A756C69652C20746865206F6E6520696E20636F6C6C656765202D20736179732050726F666573736F722057696E646C656E75742077656E7420696E73616E652E20486520766963696F75736C79206D75726465726564207468656D20616E64207468656E2062757269656420746865697220626F6469657320696E2074686520626173656D656E74206F6620746865206D757365756D2E2057686174206966206865277320686964696E6720696E207468617420637265657079206D757365756D207269676874206E6F772C206A7573742077616974696E6720666F7220616E6F746865722076696374696D3F",
+      "source": " Yeah, and my sister - you know, Julie, the one in college - says Professor Windlenut went insane. He viciously murdered them and then buried their bodies in the basement of the museum. What if he's hiding in that creepy museum right now, just waiting for another victim?",
+      "ko": "언니 말로는 윈들넛 교수가 아이들을 죽여 지하에 묻었대. 지금도 박물관에 숨어 다음 희생자를 기다리면 어떡해?",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 530,
+        "end_frame": 675
+      },
+      "slot": {
+        "source_byte_length": 271,
+        "ko_cp949_byte_length": 106,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 9,
+      "heap_offset": 1062,
+      "raw_hex": "205965616820616E64207468652067686F7374206F66206869732076696374696D73206172652063616C6C696E67206F757420746F20796F752E2E2E7761726E696E6720796F752E0A0A52696E672072696E672C2068656C6C6F2E2E2E49207468696E6B206974277320666F7220796F752E0A0A284B696473206C6175676829",
+      "source": " Yeah and the ghost of his victims are calling out to you...warning you.\n\nRing ring, hello...I think it's for you.\n\n(Kids laugh)",
+      "ko": "유령들이 널 부르는 거야... 경고하는 거지.\n따르릉, 여보세요... 네 전화야.\n(아이들 웃음)",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 675,
+        "end_frame": 750
+      },
+      "slot": {
+        "source_byte_length": 128,
+        "ko_cp949_byte_length": 86,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 10,
+      "heap_offset": 1191,
+      "raw_hex": "202857686973706572696E67290A476574206F75742C20676574206F75742E2E2E7468657920617265206576696C2E2E2E6E6F206E6F6F6F6F6F6F21200A0A28576F6C6620686F776C696E6729",
+      "source": " (Whispering)\nGet out, get out...they are evil...no noooooo! \n\n(Wolf howling)",
+      "ko": "(속삭이며)\n나가... 그들은 사악해... 안 돼에에에!\n(늑대 울음)",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 750,
+        "end_frame": 850
+      },
+      "slot": {
+        "source_byte_length": 77,
+        "ko_cp949_byte_length": 60,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 11,
+      "heap_offset": 1269,
+      "raw_hex": "205468617420776173206A757374206120646F6720686F776C696E672E0A0A54686572652077617320736F6D657468696E67206D6F7265207468616E20746861742E",
+      "source": " That was just a dog howling.\n\nThere was something more than that.",
+      "ko": "그건 그냥 개가 짖은 거야.\n그것 말고 뭔가 더 있었어.",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 850,
+        "end_frame": 890
+      },
+      "slot": {
+        "source_byte_length": 66,
+        "ko_cp949_byte_length": 51,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 12,
+      "heap_offset": 1336,
+      "raw_hex": "2057656C6C2049206469646E2774206865617220616E797468696E672E2049207468696E6B207468697320706C616365206973206A7573742067657474696E6720757320616C6C2073706F6F6B65642E",
+      "source": " Well I didn't hear anything. I think this place is just getting us all spooked.",
+      "ko": "난 아무것도 못 들었어. 여기 분위기에 다들 겁먹은 것 같아.",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 890,
+        "end_frame": 950
+      },
+      "slot": {
+        "source_byte_length": 80,
+        "ko_cp949_byte_length": 57,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 13,
+      "heap_offset": 1417,
+      "raw_hex": "2041726520796F75207375726520796F752077616E7420746F20676F207468726F756768207769746820746869733F20596F752063616E206261636B206F757420617420616E792074696D652E",
+      "source": " Are you sure you want to go through with this? You can back out at any time.",
+      "ko": "정말 이대로 할 거야? 지금이라도 그만둬도 돼.",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 950,
+        "end_frame": 990
+      },
+      "slot": {
+        "source_byte_length": 77,
+        "ko_cp949_byte_length": 44,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 14,
+      "heap_offset": 1495,
+      "raw_hex": "20427574206F6620636F7572736520696620796F75206469642C20796F7527642070726F6261626C79206E65766572206C69766520646F776E2074686520636869636B656E206A6F6B65732E0A0A54686174277320747275652E",
+      "source": " But of course if you did, you'd probably never live down the chicken jokes.\n\nThat's true.",
+      "ko": "물론 그랬다간 겁쟁이라고 평생 놀림받겠지만.\n그건 그렇지.",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 990,
+        "end_frame": 1030
+      },
+      "slot": {
+        "source_byte_length": 90,
+        "ko_cp949_byte_length": 56,
+        "fits_original_slot": true
+      },
+      "notes": []
+    },
+    {
+      "entry_id": 15,
+      "heap_offset": 1586,
+      "raw_hex": "20596F75276C6C20626520616C6C2072696768742E20436F6D65206F6E2C204920646F6E27742077616E7420746F206265206C61746520666F7220746865206D6F7669652E205765276C6C206265206261636B206174206461776E20746F206C657420796F75206F75742E0A0A42796520627965210A53656520796121",
+      "source": " You'll be all right. Come on, I don't want to be late for the movie. We'll be back at dawn to let you out.\n\nBye bye!\nSee ya!",
+      "ko": "넌 괜찮을 거야. 영화에 늦겠다. 새벽에 돌아와 꺼내 줄게.\n잘 있어! 또 봐!",
+      "status": "needs_human_review",
+      "timing": {
+        "start_frame": 1030,
+        "end_frame": 1100
+      },
+      "slot": {
+        "source_byte_length": 125,
+        "ko_cp949_byte_length": 71,
+        "fits_original_slot": true
+      },
+      "notes": []
+    }
+  ]
+}

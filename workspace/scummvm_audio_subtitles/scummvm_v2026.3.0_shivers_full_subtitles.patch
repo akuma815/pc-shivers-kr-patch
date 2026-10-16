@@ -1,0 +1,375 @@
+diff --git a/engines/sci/detection_tables.h b/engines/sci/detection_tables.h
+index a4f673f..d9e6957 100644
+--- a/engines/sci/detection_tables.h
++++ b/engines/sci/detection_tables.h
+@@ -5567,13 +5567,13 @@ static const struct ADGameDescription SciGameDescriptions[] = {
+ 								GAMEOPTION_HQ_VIDEO, \
+ 								GAMEOPTION_ENABLE_GMM_SAVE)
+ 
+-	// Shivers - English Windows (from jvprat)
++	// Shivers - Korean audio-subtitle PoC, based on English Windows (from jvprat)
+ 	// Executable scanning reports "2.100.002", VERSION file reports "1.02"
+ 	{"shivers", "", {
+ 		{"resmap.000", 0, "f2ead37749ed8f6535a2445a7d05a0cc", 46525},
+ 		{"ressci.000", 0, "4294c6d7510935f2e0a52e302073c951", 262654836},
+ 		AD_LISTEND},
+-		Common::EN_ANY, Common::kPlatformWindows, ADGF_DROPPLATFORM, GUIO_SHIVERS },
++		Common::KO_KOR, Common::kPlatformWindows, ADGF_DROPPLATFORM, GUIO_SHIVERS },
+ 
+ 	// Shivers - German Windows (from Tobis87)
+ 	{"shivers", "", {
+diff --git a/engines/sci/graphics/frameout.cpp b/engines/sci/graphics/frameout.cpp
+index cb7fe4e..3221027 100644
+--- a/engines/sci/graphics/frameout.cpp
++++ b/engines/sci/graphics/frameout.cpp
+@@ -28,7 +28,9 @@
+ #include "common/system.h"
+ #include "common/textconsole.h"
+ #include "engines/engine.h"
++#include "common/file.h"
+ #include "engines/util.h"
++#include "graphics/korfont.h"
+ #include "graphics/paletteman.h"
+ #include "graphics/surface.h"
+ 
+@@ -70,6 +72,12 @@ GfxFrameout::GfxFrameout(SegManager *segMan, GfxPalette32 *palette, GfxTransitio
+ 	_overdrawThreshold(0),
+ 	_throttleKernelFrameOut(true),
+ 	_palMorphIsOn(false),
++	_audioSubtitleFont(nullptr),
++	_audioSubtitleResourceId(0),
++	_audioSubtitleStartMillis(0),
++	_audioSubtitleEndMillis(0),
++	_audioSubtitleActive(false),
++	_audioSubtitleDrawn(false),
+ 	_lastScreenUpdateTick(0) {
+ 
+ 	if (g_sci->getGameId() == GID_PHANTASMAGORIA) {
+@@ -115,6 +123,8 @@ GfxFrameout::GfxFrameout(SegManager *segMan, GfxPalette32 *palette, GfxTransitio
+ 
+ GfxFrameout::~GfxFrameout() {
+ 	clear();
++	delete _audioSubtitleFont;
++	_audioSubtitleBackup.free();
+ 	CelObj::deinit();
+ 	_currentBuffer.free();
+ }
+@@ -134,12 +144,178 @@ void GfxFrameout::run() {
+ }
+ 
+ void GfxFrameout::clear() {
++	clearAudioSubtitle();
+ 	_planes.clear();
+ 	_visiblePlanes.clear();
+ 	_showList.clear();
+ 	_screenItemLists.clear();
+ }
+ 
++bool GfxFrameout::loadAudioSubtitle(uint16 resourceId, Common::String &text, uint32 &durationMillis) {
++	Common::File file;
++	if (!file.open("audio_subtitles_ko.csv")) {
++		debug(1, "[ShiversAudioSubtitle] audio_subtitles_ko.csv was not found");
++		return false;
++	}
++
++	while (!file.eos()) {
++		Common::String line = file.readLine();
++		line.trim();
++		if (line.empty() || line[0] == '#')
++			continue;
++
++		const size_t firstComma = line.find(',');
++		if (firstComma == Common::String::npos)
++			continue;
++		const size_t secondComma = line.find(',', firstComma + 1);
++		if (secondComma == Common::String::npos)
++			continue;
++
++		const uint32 parsedResourceId = (uint32)strtoul(line.substr(0, firstComma).c_str(), nullptr, 10);
++		if (parsedResourceId != resourceId)
++			continue;
++
++		durationMillis = (uint32)strtoul(line.substr(firstComma + 1, secondComma - firstComma - 1).c_str(), nullptr, 10);
++		text = line.substr(secondComma + 1);
++		if (durationMillis == 0 || text.empty()) {
++			warning("[ShiversAudioSubtitle] Invalid row for audio resource %u", resourceId);
++			return false;
++		}
++		return true;
++	}
++
++	debug(1, "[ShiversAudioSubtitle] No subtitle row for audio resource %u", resourceId);
++	return false;
++}
++
++void GfxFrameout::showAudioSubtitle(uint16 resourceId) {
++	if (g_sci->getGameId() != GID_SHIVERS || g_sci->getLanguage() != Common::KO_KOR)
++		return;
++
++	Common::String text;
++	uint32 durationMillis = 0;
++	if (!loadAudioSubtitle(resourceId, text, durationMillis))
++		return;
++
++	if (_audioSubtitleFont == nullptr) {
++		_audioSubtitleFont = Graphics::FontKorean::createFont("korean.fnt");
++		if (_audioSubtitleFont == nullptr) {
++			warning("[ShiversAudioSubtitle] korean.fnt could not be loaded");
++			return;
++		}
++	}
++
++	_audioSubtitleText = text;
++	_audioSubtitleResourceId = resourceId;
++	_audioSubtitleStartMillis = g_system->getMillis();
++	_audioSubtitleEndMillis = _audioSubtitleStartMillis + durationMillis;
++	_audioSubtitleActive = true;
++	debug(1, "[ShiversAudioSubtitle] START resource=%u duration_ms=%u", resourceId, durationMillis);
++}
++
++void GfxFrameout::clearAudioSubtitle(uint16 resourceId) {
++	if (!_audioSubtitleActive)
++		return;
++	if (resourceId != 0 && resourceId != _audioSubtitleResourceId)
++		return;
++
++	debug(1, "[ShiversAudioSubtitle] CLEAR resource=%u", _audioSubtitleResourceId);
++	_audioSubtitleActive = false;
++	_audioSubtitleResourceId = 0;
++	_audioSubtitleStartMillis = 0;
++	_audioSubtitleEndMillis = 0;
++	_audioSubtitleText.clear();
++}
++
++void GfxFrameout::restoreAudioSubtitleBackground() {
++	if (!_audioSubtitleDrawn)
++		return;
++
++	_currentBuffer.copyRectToSurface(
++		_audioSubtitleBackup,
++		_audioSubtitleRect.left,
++		_audioSubtitleRect.top,
++		Common::Rect(_audioSubtitleBackup.w, _audioSubtitleBackup.h)
++	);
++	_showList.add(_audioSubtitleRect);
++	_audioSubtitleDrawn = false;
++}
++
++void GfxFrameout::drawAudioSubtitle() {
++	if (!_audioSubtitleActive || _audioSubtitleFont == nullptr || _audioSubtitleText.empty())
++		return;
++
++	const int maxTextWidth = _currentBuffer.w - 16;
++	Common::Array<Common::Array<uint16> > lines;
++	Common::Array<int> lineWidths;
++	lines.push_back(Common::Array<uint16>());
++	lineWidths.push_back(0);
++	uint32 currentLine = 0;
++	for (size_t i = 0; i < _audioSubtitleText.size();) {
++		uint16 character = (byte)_audioSubtitleText[i++];
++		if (character == '\n') {
++			if (!lines[currentLine].empty()) {
++				lines.push_back(Common::Array<uint16>());
++				lineWidths.push_back(0);
++				++currentLine;
++			}
++			continue;
++		}
++		if (character >= 0x80) {
++			if (i >= _audioSubtitleText.size()) {
++				warning("[ShiversAudioSubtitle] Truncated CP949 character for resource %u", _audioSubtitleResourceId);
++				clearAudioSubtitle();
++				return;
++			}
++			character |= (uint16)(byte)_audioSubtitleText[i++] << 8;
++		}
++
++		const int characterWidth = _audioSubtitleFont->getCharWidth(character);
++		if (lineWidths[currentLine] + characterWidth > maxTextWidth) {
++			lines.push_back(Common::Array<uint16>());
++			lineWidths.push_back(0);
++			++currentLine;
++			if (character == ' ')
++				continue;
++		}
++		lines[currentLine].push_back(character);
++		lineWidths[currentLine] += characterWidth;
++	}
++
++	const uint32 pageCount = (lines.size() + 1) / 2;
++	const uint32 durationMillis = _audioSubtitleEndMillis - _audioSubtitleStartMillis;
++	const uint32 elapsedMillis = g_system->getMillis() - _audioSubtitleStartMillis;
++	uint32 pageIndex = durationMillis == 0 ? 0 : (uint32)(((uint64)elapsedMillis * pageCount) / durationMillis);
++	if (pageIndex >= pageCount)
++		pageIndex = pageCount - 1;
++	const uint32 firstLine = pageIndex * 2;
++	const int remainingLines = (int)lines.size() - (int)firstLine;
++	const int lineCount = remainingLines > 2 ? 2 : remainingLines;
++	const int fontHeight = _audioSubtitleFont->getFontHeight();
++	const int rectHeight = lineCount * fontHeight + 4;
++	_audioSubtitleRect = Common::Rect(4, _currentBuffer.h - 20 - rectHeight, _currentBuffer.w - 4, _currentBuffer.h - 20);
++
++	if (_audioSubtitleBackup.w != _audioSubtitleRect.width() || _audioSubtitleBackup.h != _audioSubtitleRect.height()) {
++		_audioSubtitleBackup.free();
++		_audioSubtitleBackup.create(_audioSubtitleRect.width(), _audioSubtitleRect.height(), _currentBuffer.format);
++	}
++	_audioSubtitleBackup.copyRectToSurface(_currentBuffer, 0, 0, _audioSubtitleRect);
++
++	_currentBuffer.fillRect(_audioSubtitleRect, 0);
++	for (int lineIndex = 0; lineIndex < lineCount; ++lineIndex) {
++		const uint32 sourceLine = firstLine + lineIndex;
++		int x = (_currentBuffer.w - lineWidths[sourceLine]) / 2;
++		const int y = _audioSubtitleRect.top + 2 + lineIndex * fontHeight;
++		for (Common::Array<uint16>::const_iterator character = lines[sourceLine].begin(); character != lines[sourceLine].end(); ++character) {
++			_audioSubtitleFont->drawChar(_currentBuffer, *character, x, y, 181, 0);
++			x += _audioSubtitleFont->getCharWidth(*character);
++		}
++	}
++
++	_showList.add(_audioSubtitleRect);
++	_audioSubtitleDrawn = true;
++}
++
+ bool GfxFrameout::detectHiRes() const {
+ 	// QFG4 is always low resolution
+ 	if (g_sci->getGameId() == GID_QFG4) {
+@@ -478,6 +654,7 @@ void GfxFrameout::kernelAddPicAt(const reg_t planeObject, const GuiResourceId pi
+ #pragma mark Rendering
+ 
+ void GfxFrameout::frameOut(const bool shouldShowBits, const Common::Rect &eraseRect) {
++	restoreAudioSubtitleBackground();
+ 	updateMousePositionForRendering();
+ 
+ 	RobotDecoder &robotPlayer = g_sci->_video32->getRobotPlayer();
+@@ -522,6 +699,11 @@ void GfxFrameout::frameOut(const bool shouldShowBits, const Common::Rect &eraseR
+ 		robotPlayer.frameAlmostVisible();
+ 	}
+ 
++	if (_audioSubtitleActive && (int32)(g_system->getMillis() - _audioSubtitleEndMillis) >= 0)
++		clearAudioSubtitle();
++	if (_audioSubtitleActive)
++		drawAudioSubtitle();
++
+ 	_palette->updateHardware();
+ 
+ 	if (shouldShowBits) {
+diff --git a/engines/sci/graphics/frameout.h b/engines/sci/graphics/frameout.h
+index 288125a..a9117cc 100644
+--- a/engines/sci/graphics/frameout.h
++++ b/engines/sci/graphics/frameout.h
+@@ -28,6 +28,10 @@
+ #include "sci/graphics/plane32.h"
+ #include "sci/graphics/screen_item32.h"
+ 
++namespace Graphics {
++class FontKorean;
++}
++
+ namespace Sci {
+ typedef Common::Array<DrawList> ScreenItemListList;
+ typedef Common::Array<RectList> EraseListList;
+@@ -76,6 +80,18 @@ public:
+ 	 */
+ 	inline int16 getScreenHeight() const { return _currentBuffer.h; }
+ 
++	/**
++	 * Starts a Shivers fan-translation subtitle for a digital audio resource.
++	 * The text and duration are loaded from audio_subtitles_ko.csv.
++	 */
++	void showAudioSubtitle(uint16 resourceId);
++
++	/**
++	 * Clears the active Shivers fan-translation audio subtitle, if it belongs
++	 * to the supplied resource. Passing zero clears any active subtitle.
++	 */
++	void clearAudioSubtitle(uint16 resourceId = 0);
++
+ private:
+ 	GfxCursor32 *_cursor;
+ 	GfxPalette32 *_palette;
+@@ -323,6 +340,25 @@ private:
+ 	 */
+ 	Buffer _currentBuffer;
+ 
++	/**
++	 * ScummVM-only fan-translation overlay for Shivers digital audio that has
++	 * no game-script subtitle path. The saved background is restored before
++	 * every frame so the overlay never becomes part of the game image.
++	 */
++	Graphics::FontKorean *_audioSubtitleFont;
++	Graphics::Surface _audioSubtitleBackup;
++	Common::String _audioSubtitleText;
++	Common::Rect _audioSubtitleRect;
++	uint16 _audioSubtitleResourceId;
++	uint32 _audioSubtitleStartMillis;
++	uint32 _audioSubtitleEndMillis;
++	bool _audioSubtitleActive;
++	bool _audioSubtitleDrawn;
++
++	bool loadAudioSubtitle(uint16 resourceId, Common::String &text, uint32 &durationMillis);
++	void restoreAudioSubtitleBackground();
++	void drawAudioSubtitle();
++
+ 	/**
+ 	 * When true, a change to the remap zone in the palette has occurred and
+ 	 * screen items with remap data need to be redrawn.
+diff --git a/engines/sci/sound/soundcmd.cpp b/engines/sci/sound/soundcmd.cpp
+index b5a983e..a298caf 100644
+--- a/engines/sci/sound/soundcmd.cpp
++++ b/engines/sci/sound/soundcmd.cpp
+@@ -32,6 +32,9 @@
+ #include "sci/engine/kernel.h"
+ #include "sci/engine/object.h"
+ #include "sci/engine/selector.h"
++#ifdef ENABLE_SCI32
++#include "sci/graphics/frameout.h"
++#endif
+ 
+ namespace Sci {
+ 
+@@ -259,6 +262,11 @@ void SoundCommandParser::processPlaySound(reg_t obj, bool playBed, bool restorin
+ 
+ 	_music->soundPlay(musicSlot, restoring);
+ 
++#ifdef ENABLE_SCI32
++	if (!restoring && g_sci->_gfxFrameout != nullptr)
++		g_sci->_gfxFrameout->showAudioSubtitle(resourceId);
++#endif
++
+ 	// Increment the sample play counter used by Pharkas CD.
+ 	// SSCI calls kDoAudio(Play) which did this. See kDoAudio(13).
+ 	if (_audio != nullptr && musicSlot->isSample) {
+@@ -336,6 +344,11 @@ void SoundCommandParser::processStopSound(reg_t obj, bool sampleFinishedPlaying)
+ 	musicSlot->signal = SIGNAL_OFFSET;
+ 	_music->soundStop(musicSlot);
+ 
++#ifdef ENABLE_SCI32
++	if (g_sci->_gfxFrameout != nullptr)
++		g_sci->_gfxFrameout->clearAudioSubtitle(musicSlot->resourceId);
++#endif
++
+ 	if (_soundVersion <= SCI_VERSION_0_LATE && (musicSlot = _music->getFirstSlotWithStatus(kSoundPlaying)))
+ 		writeSelectorValue(_segMan, musicSlot->soundObj, SELECTOR(state), kSoundPlaying);
+ }
+diff --git a/engines/sci/graphics/video32.cpp b/engines/sci/graphics/video32.cpp
+index 381b540..ac48b2e 100644
+--- a/engines/sci/graphics/video32.cpp
++++ b/engines/sci/graphics/video32.cpp
+@@ -106,7 +106,7 @@ void VideoPlayer::setSubtitlePosition() const {
+ 	_subtitles.setBBox(
+ 		Common::Rect(
+ 			(_drawRect.left + 20) * overlayWidth / drawWidth,
+-			(_drawRect.bottom - 80) * overlayHeight / drawHeight,
++			(_drawRect.bottom - 130) * overlayHeight / drawHeight,
+ 			(_drawRect.right - 20)  * overlayWidth / drawWidth,
+ 			(_drawRect.bottom - 10) * overlayHeight / drawHeight
+ 		)
+@@ -127,7 +127,7 @@ VideoPlayer::EventFlags VideoPlayer::playUntilEvent(const EventFlags flags, cons
+ 	if (_subtitles.isLoaded()) {
+ 		setSubtitlePosition();
+ 		_subtitles.setColor(0xff, 0xff, 0xff);
+-		_subtitles.setFont("LiberationSans-Regular.ttf");
++		_subtitles.setFont("ShiversKorean.ttf", 18);
+ 
+ 		g_system->clearOverlay();
+ 		g_system->showOverlay(false);

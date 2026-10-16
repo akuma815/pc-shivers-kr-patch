@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "build_id": "scummvm_ko_poc_015_audio_subtitle_35036",
+  "base_build": "build/scummvm_ko_poc_012_pic_batch_03113",
+  "scummvm_source_tag": "v2026.3.0",
+  "scummvm_source_commit": "fed42f2068dcafc6aafa1c28c77e4c88def74b66",
+  "audio_subtitles": [
+    {
+      "resource_id": 35036,
+      "duration_ms": 3427,
+      "english": "Register your name in the guest book.",
+      "korean": "박물관 방명록에 이름을 등록하세요."
+    }
+  ],
+  "test_gate": {
+    "marker": "audio_subtitles_poc_force_35036.flag",
+    "forced_random_resources": [35031, 35033, 35034, 35036, 35037, 35038, 35039, 35040],
+    "forced_resource": 35036,
+    "scope": "build 015 runtime QA only"
+  }
+}

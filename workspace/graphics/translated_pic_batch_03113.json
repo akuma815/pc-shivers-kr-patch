@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "scope": "Current user-edited SCI picture assets through pic 03113",
+  "status": "poc_input",
+  "normalization": "Lanczos resize to the original cel dimensions, then nearest-color mapping to palette indices used by the original picture",
+  "expected_resource_numbers": [5, 910, 911, 914, 918, 920, 921, 922, 923, 927, 991, 1003, 1004, 1020, 1030, 3111, 3112, 3113],
+  "assets": [
+    {
+      "resource_number": 5,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00005.p56",
+      "source_sha256": "7A13E3D8B8F0429A49E519D77486C618B9A65D91B66B5846962049B8642F4B2D",
+      "source_dimensions": [640, 480],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00005/cel_000.png",
+      "translation_sha256": "61F60B3D06C914D1BD6305D30AB3BFBEEE576C03B26E5150ECD3CD874CD78DCD",
+      "translation_dimensions": [1448, 1086]
+    },
+    {
+      "resource_number": 910,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00910.p56",
+      "source_sha256": "754EA0EC4AAF24D54133B8D8B09D0E2B97C5C632A13E09DEAF2817918B8132DC",
+      "source_dimensions": [640, 480],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00910/cel_000.png",
+      "translation_sha256": "B3AC675140C5225D2AD9B98B191726789AC490CBE63F32128AA6F1CA3CB42DED",
+      "translation_dimensions": [640, 480]
+    },
+    {
+      "resource_number": 911,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00911.p56",
+      "source_sha256": "67E178C13AA3DA6EDF1227998A486DE427CD9F4451C67D6F0724E5C9E51685CC",
+      "source_dimensions": [528, 345],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00911/cel_000.png",
+      "translation_sha256": "9714A635F90C58341605E436AD630E6676EB1867C027D26350C4C27319FDEDD8",
+      "translation_dimensions": [528, 345]
+    },
+    {
+      "resource_number": 914,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00914.p56",
+      "source_sha256": "D590E02E2C6BF4C524F5D123394C80D57EB195A0BD688894D21816B4FBF038ED",
+      "source_dimensions": [640, 480],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00914/cel_000.png",
+      "translation_sha256": "74CC7F525A182E3851B4985AC9C162E55A502BD75E084491EB27100C1250E145",
+      "translation_dimensions": [640, 480]
+    },
+    {
+      "resource_number": 918,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00918.p56",
+      "source_sha256": "7C6733E8DB2B75C8FDE55A106416A9ABDB7F19916532AC9B3EFF891859A3859E",
+      "source_dimensions": [640, 480],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00918/cel_000.png",
+      "translation_sha256": "3394E6C782714A9945D4791407CD9AC6674B1E98963495660B7E7623ACD19287",
+      "translation_dimensions": [640, 480]
+    },
+    {
+      "resource_number": 920,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00920.p56",
+      "source_sha256": "1F24E6A0A7A8293525FFCBC6EA812988D2EF70B79D53FB61D45B2978F2502AA1",
+      "source_dimensions": [640, 480],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00920/cel_000.png",
+      "translation_sha256": "DC58AE4B365CC4434E99E06E45AFC43BC9EEB86BAFDBE487D90AAAA9D52E97DE",
+      "translation_dimensions": [640, 480]
+    },
+    {
+      "resource_number": 921,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00921.p56",
+      "source_sha256": "3BFFB0B3E529AF9517C721EB850B61F8DAB6B6A89D80FC8B127F7AF35A844008",
+      "source_dimensions": [528, 345],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00921/cel_000.png",
+      "translation_sha256": "DC58AE4B365CC4434E99E06E45AFC43BC9EEB86BAFDBE487D90AAAA9D52E97DE",
+      "translation_dimensions": [640, 480]
+    },
+    {
+      "resource_number": 922,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00922.p56",
+      "source_sha256": "7CE74404EC9F3BE66F85B0501044FAA4C8C185E227522C50989038B2A609BDEA",
+      "source_dimensions": [640, 480],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00922/cel_000.png",
+      "translation_sha256": "37F8220A7BA69201E15752F3CCF31793FF6D396423ACAD4895FFE3C3204C84DA",
+      "translation_dimensions": [640, 480]
+    },
+    {
+      "resource_number": 923,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00923.p56",
+      "source_sha256": "F0B7D197BAC1600CF66B53C9BED281BB91D6047DA70E7175CD8175709892FC71",
+      "source_dimensions": [640, 480],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00923/cel_000.png",
+      "translation_sha256": "3394E6C782714A9945D4791407CD9AC6674B1E98963495660B7E7623ACD19287",
+      "translation_dimensions": [640, 480]
+    },
+    {
+      "resource_number": 927,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00927.p56",
+      "source_sha256": "F0EF9E585CB78CAEC5C68502D99AA127CE849ECD0BCB904801C73129ABDFABE7",
+      "source_dimensions": [640, 480],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00927/cel_000.png",
+      "translation_sha256": "D566010769BA68817B11C2775E3582C789B833D3B995FC5FD66287DE7EDB04BF",
+      "translation_dimensions": [640, 480]
+    },
+    {
+      "resource_number": 991,
+      "source_path": "workspace/graphics/english_assets/raw/pic/00991.p56",
+      "source_sha256": "C18353A4504066F7630C9A5E2FCDBFA8A45F2E5D84E823151FBA42F1F7F843AA",
+      "source_dimensions": [528, 345],
+      "translation_path": "workspace/graphics/english_assets/png/pic/00991/cel_000.png",
+      "translation_sha256": "F65C9C197F9F255E8C32D35F0CE0CBFCD1811B266405129EBC19EC5C33D77B45",
+      "translation_dimensions": [528, 345]
+    },
+    {
+      "resource_number": 1003,
+      "source_path": "workspace/graphics/english_assets/raw/pic/01003.p56",
+      "source_sha256": "E872BE85D8EA5B9B54BDC4D07664BA146C0A34261A39FE079C52DD5224B6B18D",
+      "source_dimensions": [528, 345],
+      "translation_path": "workspace/graphics/english_assets/png/pic/01003/cel_000.png",
+      "translation_sha256": "BC3E76921A0141D152CF7B2ED71EAEEB5C0BB6BBB9637C6CACCB8DFB800527C9",
+      "translation_dimensions": [528, 345]
+    },
+    {
+      "resource_number": 1004,
+      "source_path": "workspace/graphics/english_assets/raw/pic/01004.p56",
+      "source_sha256": "7EE5BC7BBC63BE811F5210728703F88B95454B27EB585BABE4DD5A230EA83303",
+      "source_dimensions": [528, 345],
+      "translation_path": "workspace/graphics/english_assets/png/pic/01004/cel_000.png",
+      "translation_sha256": "B95283D07968762053ADD04BFAF952E83742DEE1D50EAEEEB85E7EDEEAAEBBA2",
+      "translation_dimensions": [528, 345]
+    },
+    {
+      "resource_number": 1020,
+      "source_path": "workspace/graphics/english_assets/raw/pic/01020.p56",
+      "source_sha256": "3A8501BA6FEAFB98DF42884638C599D1B06CA13556CD4CDA6BA31205925A8507",
+      "source_dimensions": [528, 345],
+      "translation_path": "workspace/graphics/english_assets/png/pic/01020/cel_000_ko.png",
+      "translation_sha256": "F35F880899A100E8F122CB7D49104E91B03B1EF26E6A421D5C02C8753EC91D8C",
+      "translation_dimensions": [1450, 1085]
+    },
+    {
+      "resource_number": 1030,
+      "source_path": "workspace/graphics/english_assets/raw/pic/01030.p56",
+      "source_sha256": "40D3B56EBCA0342C9EFC7323D1E8BA1A0B30A59D8283DBEED0DD60E1817C45F8",
+      "source_dimensions": [528, 345],
+      "translation_path": "workspace/graphics/english_assets/png/pic/01030/cel_000_ko.png",
+      "translation_sha256": "DBD1A687CE152FC1EE8165D779E865F7AE1EDAA3E3F00C2BF1847A9538F39E35",
+      "translation_dimensions": [1448, 1086]
+    },
+    {
+      "resource_number": 3111,
+      "source_path": "workspace/graphics/english_assets/raw/pic/03111.p56",
+      "source_sha256": "226A15EE8699079030F2006806B740F8F8FCA39DF69D245B71B8CA21912D3B49",
+      "source_dimensions": [528, 345],
+      "translation_path": "workspace/graphics/english_assets/png/pic/03111/cel_000.png",
+      "translation_sha256": "00B900A39F488283ADB5985AD3CE04B615DB61C63D7BA09DE397BFE8E0424BFB",
+      "translation_dimensions": [528, 345]
+    },
+    {
+      "resource_number": 3112,
+      "source_path": "workspace/graphics/english_assets/raw/pic/03112.p56",
+      "source_sha256": "3FCB976D84DE026DAE657D1B1FA12EB29780FF20022B83CC669F512E66328365",
+      "source_dimensions": [528, 345],
+      "translation_path": "workspace/graphics/english_assets/png/pic/03112/cel_000.png",
+      "translation_sha256": "0CCACE5C46E2BBDCAFD868BF39922FCB53CDB4BAE70C9226C5487DF8CB1C0832",
+      "translation_dimensions": [528, 345]
+    },
+    {
+      "resource_number": 3113,
+      "source_path": "workspace/graphics/english_assets/raw/pic/03113.p56",
+      "source_sha256": "16D2DC9A1CA81F21D2943118F30EB30A17C0B5361546CEBC3F84ED6231FC6630",
+      "source_dimensions": [528, 345],
+      "translation_path": "workspace/graphics/english_assets/png/pic/03113/cel_000.png",
+      "translation_sha256": "3E18BA1E096B1BD00978731C238D76A4FA4D94BA63D83CF20A4AFE8A45E2FED8",
+      "translation_dimensions": [528, 345]
+    }
+  ]
+}
