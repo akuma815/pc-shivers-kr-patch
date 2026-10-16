@@ -6,10 +6,10 @@ Windows / 커스텀 ScummVM **쉬버스** 한글 번역 패치 프로젝트입�
 
 <!-- game-preview:start -->
 <p align="center">
-  <img src="img/preview.webp" alt="쉬버스 — 한글 타이틀 · 작업 당시 캡처" width="640">
+  <img src="img/preview-user-20261016.png" alt="한글 타이틀" width="640">
 </p>
 
-**한글 타이틀 · 작업 당시 캡처** — full_audio_subtitles_017 커스텀 ScummVM 캡처 작업 당시 화면이며 최종 배포본의 화면 검증을 의미하지 않습니다.
+**한글 타이틀** — 사용자 제공 쉬버스 타이틀 화면. RC1과 같은 025 커스텀 실행기를 사용했으며 메뉴 일부는 영어로 표시됩니다.
 <!-- game-preview:end -->
 
 ## 다운로드 및 적용 방법

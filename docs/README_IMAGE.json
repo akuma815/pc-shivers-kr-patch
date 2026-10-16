@@ -1,14 +1,17 @@
 {
-  "src": "assets/screenshots/pc-shivers-kr-patch.webp",
-  "caption": "한글 타이틀 · 작업 당시 캡처",
+  "src": "assets/screenshots/pc-shivers-kr-patch-user-20261016.png",
+  "caption": "한글 타이틀",
   "kind": "runtime",
-  "width": 661,
-  "height": 529,
-  "source": "Games/Shivers1/qa/screenshots/scummvm/full_audio_subtitles_017_20260903_01/capture_027s.png",
-  "sourceSHA256": "35fbb7922a2093998fff412f25d404204b4fa1bffa9dd22be31ace872afeba08",
-  "assetSHA256": "3ae3dae96ba7a1258bbe07d5cf990d739fcd59ac1078baf82f24596d0a631343",
-  "pixelSHA256": "f6de89834af4909e3a19c69064e98f1cec0f511d4cd99555554ef2a1e5dbfb77",
-  "sourceNote": "full_audio_subtitles_017 커스텀 ScummVM 캡처",
-  "readmeAsset": "img/preview.webp",
-  "displayNote": "full_audio_subtitles_017 커스텀 ScummVM 캡처 작업 당시 화면이며 최종 배포본의 화면 검증을 의미하지 않습니다."
+  "width": 1260,
+  "height": 1044,
+  "source": "Games/Shivers1/qa/user_capture_20261016/title.png",
+  "sourceSHA256": "a800d94562c92565cbc9574ce9e276d3335b64a3c818fe3b45af0784941a2a7b",
+  "assetSHA256": "a800d94562c92565cbc9574ce9e276d3335b64a3c818fe3b45af0784941a2a7b",
+  "pixelSHA256": "f484d4920e5f4ccda403a6fe8122e4967c750d3e877e9b7c328775b3ab0c2ec2",
+  "sourceNote": "사용자 제공 쉬버스 타이틀 화면. RC1과 같은 025 커스텀 실행기를 사용했으며 메뉴 일부는 영어로 표시됩니다.",
+  "providedBy": "user",
+  "attachmentDate": "2026-10-16",
+  "preservation": "Chat attachment bytes copied unchanged; no crop, retouch or rescale performed locally.",
+  "readmeAsset": "img/preview-user-20261016.png",
+  "displayNote": "사용자 제공 쉬버스 타이틀 화면. RC1과 같은 025 커스텀 실행기를 사용했으며 메뉴 일부는 영어로 표시됩니다."
 }
